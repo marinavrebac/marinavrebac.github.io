@@ -329,7 +329,7 @@ async function experimentInit() {
     font: 'Open Sans',
     units: undefined, 
     pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
-    color: new util.Color([0.2098, 0.2098, 0.2059]),  opacity: undefined,
+    color: new util.Color([1.0, 1.0, 1.0]),  opacity: undefined,
     depth: 0.0 
   });
   
@@ -1249,7 +1249,7 @@ function answerRoutineEachFrame() {
       primertext.setAutoDraw(true);
     }
 
-    if (primertext.status === PsychoJS.Status.STARTED && frameN >= 1) {
+    if (primertext.status === PsychoJS.Status.STARTED && frameN >= 20) {
       primertext.setAutoDraw(false);
     }
     
