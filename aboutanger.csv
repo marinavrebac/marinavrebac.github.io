@@ -1,0 +1,13 @@
+index,itemText,type,options,ticks,tickLabels,layout,itemColor,itemWidth,responseColor,responseWidth,granularity,font
+,About Anger,heading,,,,,,,,,,
+,Please rate how often you do what is described in each item.,description,,,,,,,,,,
+1,"When something makes me angry, I turn this matter over and over again in my mind.",rating,,"1,2,3,4","Almost Never,,,Almost Always",horiz,,,,,,
+2,I have long living fantasies of revenge after the conflict is over.,rating,,"1,2,3,4","Almost Never,,,Almost Always",horiz,,,,,,
+3,I ponder about the injustices that have been done to me.,rating,,"1,2,3,4","Almost Never,,,Almost Always",horiz,,,,,,
+4,I think about the reasons people treat me badly.,rating,,"1,2,3,4","Almost Never,,,Almost Always",horiz,,,,,,
+5,"When someone makes me angry, I can't stop thinking about how to get back at this person.",rating,,"1,2,3,4","Almost Never,,,Almost Always",horiz,,,,,,
+6,I keep thinking about events that angered me for a long time.,rating,,"1,2,3,4","Almost Never,,,Almost Always",horiz,,,,,,
+7,"Whenever I experience anger, I keep thinking about it for a while.",rating,,"1,2,3,4","Almost Never,,,Almost Always",horiz,,,,,,
+8,I re-enact the anger episode in my mind after it has happened.,rating,,"1,2,3,4","Almost Never,,,Almost Always",horiz,,,,,,
+9,I think about certain events from a long time ago and they still make me angry.,rating,,"1,2,3,4","Almost Never,,,Almost Always",horiz,,,,,,
+10,I have had times when I could not stop being preoccupied with a particular conflict.,rating,,"1,2,3,4","Almost Never,,,Almost Always",horiz,,,,,,

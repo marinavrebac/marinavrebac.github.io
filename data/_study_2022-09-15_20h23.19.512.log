@@ -1,0 +1,190 @@
+1.1801 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.2333 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001E92A340EE0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001E929F39730>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.2337 	EXP 	window1: mouseVisible = True
+5.2337 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.2337 	EXP 	window1: recordFrameIntervals = False
+5.3086 	EXP 	window1: recordFrameIntervals = True
+5.3233 	WARNING 	t of last frame was 8.29ms (=1/120)
+5.3865 	EXP 	Screen (0) actual frame rate measured at 140.03Hz
+5.3866 	EXP 	window1: recordFrameIntervals = False
+6.9270 	EXP 	window1: mouseVisible = True
+6.9312 	EXP 	Imported informationletter.csv as conditions, 12 conditions, 13 params
+6.9318 	EXP 	Question text: Information Letter
+6.9593 	EXP 	Question text: Project Title: It's All Fun and Pranks
+6.9911 	EXP 	Question text: Faculty Investigator: Dr. Chris Burris, Psychology (St. Jerome's). 519-884-8111x28213 (cburris@uwaterloo.ca)
+7.0316 	EXP 	Question text: Student Investigator: Maya Karmakar-Johnson, Psychology (mkarmaka@uwaterloo.ca)
+7.0388 	EXP 	Question text: This online research is being conducted as part of the Student Investigator's undergraduate honours thesis. It focuses on how people react to pranking behaviour and factors that affect those reactions.
+7.0488 	EXP 	Question text: In this study, you will be asked first to read several short accounts of actual pranks and then react to each (for example, how funny you did – or didn't – find that prank to be). You will then be asked to complete two short measures concerning your responses to how other people interact with you – specifically, how important feeling respected and dealing with anger are for you. Finally, we'll ask you to complete a brief demographic questionnaire that asks basic questions such as your age and gender (so that we can accurately summarize the study sample's characteristics in any future reports). After that, you'll be able to learn more about the study's purpose.
+7.0721 	EXP 	Question text: We expect this study to take no more than 30 minutes of your time. Participation is voluntary. Although no direct benefits to you are anticipated, we hope that you will learn more about the variety of research methods that are employed to test psychological hypotheses. In appreciation for your participation, you will receive 0.5 participation credits toward your applicable Psychology class.
+7.0873 	EXP 	Question text: The risks associated with participation in the study are expected to be no greater than what you might experience in your day-to-day life. Indeed, reacting to others' embarrassing or awkward experiences, as well as how we deal with how people treat us, are common experiences for many. Having said that, you may choose not to complete any proportion of the study but will still receive your 0.5 participation credit. If you do choose to withdraw from the study before reaching the end, we would ask that you please skip to the end to read the feedback letter. Once you have submitted your responses it is not possible to withdraw your consent to participate, however, as we have no way of knowing which responses are yours.
+7.1088 	EXP 	Question text: You will be completing the study by an online survey operated by Qualtrics. Qualtrics has implemented technical, administrative, and physical safeguards to protect the information provided via the Services from loss, misuse, and unauthorized access, disclosure, alteration, or destruction. However, no Internet transmission is ever fully secure or error free. University of Waterloo researchers will not collect or use internet protocol (IP) addresses or other information which could link your participation to your computer or electronic device without first informing you.
+7.1274 	EXP 	Question text: Your identity will be confidential: your questionnaire responses will be identified by a code. You will not be identified by name in any report, publication, or presentation resulting from this study. If you choose to participate your data will be stored for at least 5 years on the password-protected computer on the Faculty Investigator.
+7.1372 	EXP 	Question text: If you have any questions about the study, either before or after participating, please feel free to contact the Faculty Investigator as shown above.
+7.1427 	EXP 	Question text: This study has been reviewed and received ethics clearance through a University of Waterloo Research Ethics Board (REB# 44380). If you have questions for the Board, contact the Office of Research Ethics, at 1-519-888-4567 ext. 36005 or reb@uwaterloo.ca
+7.1676 	EXP 	window1: mouseVisible = True
+7.2186 	EXP 	Created infoletter = <psychopy.visual.form.Form object at 0x000001E92B8320A0>
+7.2222 	EXP 	window1: mouseVisible = True
+7.2258 	EXP 	Imported consentform.csv as conditions, 8 conditions, 13 params
+7.2264 	EXP 	Question text: Consent for Participation
+7.2415 	EXP 	Question text: By consenting to participate, you are not waiving your legal rights or releasing the investigator(s) or involved institution(s) from their legal and professional responsibilities.
+7.2478 	EXP 	Question text: I have read the information presented in the information letter about a study being conducted under the supervision of Chris Burris, Department of Psychology, St. Jerome's University (cburris@uwaterloo.ca). I have made this decision based on the information provided. I have had the opportunity to ask any questions related to this study, to receive satisfactory answers to my questions, and any additional details I wanted.
+7.2597 	EXP 	Question text: As a participant in this online study, I am aware that my identity will remain confidential.
+7.2632 	EXP 	Question text: I am aware that I may withdraw from participating before reaching the end of the study without penalty.
+7.2668 	EXP 	Question text: This study has been reviewed and received ethics clearance through a University of Waterloo Research Ethics Committee (REB# 44380). If you have questions for the Committee, contact the Office of Research Ethics at 1-519-888-4567 ext. 36005 or ore-ceo@uwaterloo.ca
+7.2752 	EXP 	Question text: If you have any questions about the study, either before or after participating, please feel free to contact the Faculty Investigator.
+7.2793 	EXP 	Question text: I agree to participate in this study:
+7.2829 	EXP 	window1: mouseVisible = True
+7.3056 	EXP 	window1: mouseVisible = True
+7.3298 	EXP 	Created consentform = <psychopy.visual.form.Form object at 0x000001E9297203A0>
+7.3333 	EXP 	window1: mouseVisible = True
+7.3365 	EXP 	Imported HO.csv as conditions, 3 conditions, 13 params
+7.3370 	EXP 	Question text: Instructions
+7.3424 	EXP 	Question text: Imagine that there exists a part deep within you that you could call the "hidden observer." This part of you knows every detail of all behaviour and thought processes that go on within you and is aware of the deepest intimate information about yourself. However, it cannot be asked to talk about this intimate information unless it is allowed by you to do so.
+7.3543 	EXP 	Question text: Five brief descriptions of prank experiences from the target's perspective (taken from the website fmylife.com) appear below. Please read each one and - from the perspective of your "hidden observer" - rate your reactions to it.
+7.3622 	EXP 	window1: mouseVisible = True
+7.3769 	EXP 	Created instructionsform = <psychopy.visual.form.Form object at 0x000001E9295D1790>
+7.3897 	EXP 	Created prankNumberText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='prankNumberText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.3908 	EXP 	Created prankText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='prankText', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.3918 	EXP 	Created promptText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='promptText', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.11]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.4235 	EXP 	Created hiddenobserver = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='hiddenobserver', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.05]), rgb=UNKNOWN, text='My "hidden observer" says that:', units='height', win=Window(...), wrapWidth=1)
+7.4277 	EXP 	window1: mouseVisible = True
+7.5174 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-3, fillColor=None, flip=True, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0. , -0.3]), readOnly=False, self=UNKNOWN, size=array([1.  , 0.07]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7, 8]), units='height', win=Window(...))
+7.5183 	EXP 	Created primertext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.2098, 0.2098, 0.2059]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='primertext', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.5218 	EXP 	Imported aboutrespect_part1.csv as conditions, 8 conditions, 13 params
+7.5226 	EXP 	Question text: About Respect
+7.5342 	EXP 	Question text: The following questions ask you about what you think other people are like and what you think about how they act.
+7.5381 	EXP 	Question text: I feel disrespected when people don’t include me in the group.
+7.5433 	EXP 	window1: mouseVisible = True
+7.5867 	EXP 	Question text: It is important that people show that they respect you.
+7.5904 	EXP 	window1: mouseVisible = True
+7.6345 	EXP 	Question text: I feel disrespected when a group is making a decision and I don’t get to say what I think.
+7.6386 	EXP 	window1: mouseVisible = True
+7.6815 	EXP 	Question text: People want to make you feel like they are better than you.
+7.6855 	EXP 	window1: mouseVisible = True
+7.7285 	EXP 	Question text: I feel disrespected when people tease me.
+7.7320 	EXP 	window1: mouseVisible = True
+7.7751 	EXP 	Question text: It is important to let people know that they should respect you.
+7.7789 	EXP 	window1: mouseVisible = True
+7.8221 	EXP 	window1: mouseVisible = True
+7.8643 	EXP 	Created respectform = <psychopy.visual.form.Form object at 0x000001E9297390A0>
+7.8677 	EXP 	window1: mouseVisible = True
+7.8708 	EXP 	window1: mouseVisible = True
+7.8744 	EXP 	Imported aboutanger - Sheet1.csv as conditions, 12 conditions, 13 params
+7.8752 	EXP 	Question text: About Anger
+7.8811 	EXP 	Question text: Please rate how often you do what is described in each item.
+7.8844 	EXP 	Question text: When something makes me angry, I turn this matter over and over again in my mind.
+7.8886 	EXP 	window1: mouseVisible = True
+7.9122 	EXP 	Question text: I have long living fantasies of revenge after the conflict is over.
+7.9159 	EXP 	window1: mouseVisible = True
+7.9389 	EXP 	Question text: I ponder about the injustices that have been done to me.
+7.9426 	EXP 	window1: mouseVisible = True
+7.9653 	EXP 	Question text: I think about the reasons people treat me badly.
+7.9689 	EXP 	window1: mouseVisible = True
+7.9920 	EXP 	Question text: When someone makes me angry, I can't stop thinking about how to get back at this person.
+7.9961 	EXP 	window1: mouseVisible = True
+8.0196 	EXP 	Question text: I keep thinking about events that angered me for a long time.
+8.0233 	EXP 	window1: mouseVisible = True
+8.0464 	EXP 	Question text: Whenever I experience anger, I keep thinking about it for a while.
+8.0501 	EXP 	window1: mouseVisible = True
+8.0750 	EXP 	Question text: I re-enact the anger episode in my mind after it has happened.
+8.0788 	EXP 	window1: mouseVisible = True
+8.1015 	EXP 	Question text: I think about certain events from a long time ago and they still make me angry.
+8.1054 	EXP 	window1: mouseVisible = True
+8.1286 	EXP 	Question text: I have had times when I could not stop being preoccupied with a particular conflict.
+8.1327 	EXP 	window1: mouseVisible = True
+8.1559 	EXP 	window1: mouseVisible = True
+8.1960 	EXP 	Created angerform = <psychopy.visual.form.Form object at 0x000001E929BCAF10>
+8.1996 	EXP 	Imported demographic.csv as conditions, 9 conditions, 13 params
+8.2002 	EXP 	Question text: Background Information
+8.2111 	EXP 	Question text: Please complete the following information so that we can summarize the background characteristics of this study’s participants as part of any subsequent research reports. Your identity is confidential. Remember that you may decline to answer any question by leaving it blank if you choose
+8.2196 	EXP 	Question text: Your gender?
+8.2249 	EXP 	window1: mouseVisible = True
+8.2536 	EXP 	Question text: Gender (if other)
+8.2612 	EXP 	Question text: Your Age
+8.2646 	EXP 	window1: mouseVisible = True
+8.2881 	EXP 	Question text: Your Ethnicity (ie. the ethnic group or nationality with which you most strongly identify)?
+8.2940 	EXP 	Question text: Were you born in Canada
+8.2976 	EXP 	window1: mouseVisible = True
+8.3131 	EXP 	Question text: If you are now living in Canada, but were not born here, how long have you lived here?
+8.3192 	EXP 	Question text: Finally, we would like you to write a couple of sentences about something you've done or accomplished recently that you feel really good about:
+8.3275 	EXP 	window1: mouseVisible = True
+8.3522 	EXP 	Created demoForm = <psychopy.visual.form.Form object at 0x000001E929EA1CD0>
+8.3555 	EXP 	window1: mouseVisible = True
+8.3631 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Study Complete', units='height', win=Window(...), wrapWidth=1)
+8.3664 	EXP 	window1: mouseVisible = True
+8.3711 	EXP 	Imported feedbackletter.csv as conditions, 27 conditions, 13 params
+8.3718 	EXP 	Question text: Feedback Letter
+8.3774 	EXP 	Question text: Project Title: It's All Fun and Pranks
+8.3803 	EXP 	Question text: Faculty Investigator: Dr. Chris Burris, Psychology (St. Jerome's). 519-884-8111x28213 (cburris@uwaterloo.ca)
+8.3838 	EXP 	Question text: Student Investigator: Maya Karmakar-Johnson, Psychology (mkarmaka@uwaterloo.ca)
+8.3871 	EXP 	Question text: We appreciate your participation, and we thank you for spending time helping us with our research. At the beginning of the study, you were informed that its focus was on how people react to pranking behaviour and factors that affect those reactions. We would now like to explain the purpose of the study in greater detail.
+8.3964 	EXP 	Question text: Although many people view pranks as “harmless fun,” Burris and Leitch (2018) showed that pranking can sometimes serve as an outlet for sadistic motivation – understood as wanting someone else to feel bad, however briefly, because the thought of that makes oneself feel good. By their very nature, pranks involve a gotcha whereby the person being pranked is subject to some degree of physical or psychological discomfort – if that doesn’t happen, then the prank is declared to have “failed.”
+8.4132 	EXP 	Question text: Importantly, Burris and Leitch (2018) showed that positive reactions to pranks – whether performed by the self or by someone else – were predicted by a joint tendency to feel disrespected and to have difficulty letting go of anger related to past insults. Having identified this combo as the “engine” driving sadistic motivation, Burris and Leitch argued that sadistic motivation’s ultimate goal is to boost back up a self that feels deflated or “squashed,” and that seeing another come to harm is a means to this end.
+8.4264 	EXP 	Question text: This analysis of pranking raises a paradox: Most pranksters look happy, even giddy – they don’t look angry or hostile. Dijksterhuis and Aarts (2010) reviewed research suggesting that goals can drive behavior even when the goals are outside of awareness – that is, unconscious. With that in mind, the present study was set up to see whether the presumed ultimate goal driving sadistic motivation – that is, boosting the self – was operating nonconsciously.
+8.4383 	EXP 	Question text: To do that, we attempted to create either a “mini-boost” or a “mini-squash” to the self outside of your conscious awareness. Thus, as you read each prank story and reacted to it, you were randomly assigned to any of three possible subliminal primes: (1) “you are awesome” (boost); (2) “you are nothing” (squash); or (3) “people are walking” (neutral). These primes appeared before the general story instructions, before each story, and before each reaction item. After that, we had you complete short versions of the disrespect sensitivity and anger rumination measures used by Burris and Leitch (2018) to identify people who are more or less likely to respond to “squashed” feelings by reacting positively to others’ discomfort. To ensure that any possible negative effect of the “squash” prime would be neutralized quickly, we asked everyone to reflect on a recent positive personal experience at the end of the study.
+8.4615 	EXP 	Question text: We expected the most positive reactions to the prank stories to emerge among people who received the “squash” primes, and who already struggle more with feeling angry and disrespected.
+8.4678 	EXP 	Question text: So, to be clear, we are indeed interested in how people react to pranking behaviour and factors that affect those reactions, but this study explored a very specific aspect of that – that is, nonconscious motivation, which we investigated by means of subliminal primes.
+8.4757 	EXP 	Question text: We apologize that we did not alert to you our use of subliminal primes at the outset – but we hope you understand that, had we done so, you would have probably been on the lookout for (or trying to guess) the primes we were using, which would compromise their effectiveness. Although not all psychology research involves withholding information at the outset like this, there is sometimes no practical alternative that allows for a valid test of hypotheses such as ours concerning nonconscious nature of sadistic motivation. We hope this makes sense to you.
+8.4898 	EXP 	Question text: So, to summarize:
+8.4930 	EXP 	Question text: 1) Pranking is sometimes used as an outlet for sadistic motivation.
+8.4960 	EXP 	Question text: 2) The ultimate goal of sadistic motivation may be to boost the self, even if at others’ expense. 
+8.4995 	EXP 	Question text: 3) The present study used subliminal priming to test whether this hypothesized of boosting the self is operating outside of conscious awareness. 
+8.5054 	EXP 	Question text: 4) To test our hypothesis, we had to withhold information concerning our use of subliminal primes initially.
+8.5091 	EXP 	Question text: Given (4) just above, it is very important that you not discuss your experiences with any other students who potentially could be in this study until after the end of the term. If people come into the study knowing about our specific predictions, it could influence their results, and the data we collect would not be useable. Also, if you print off a copy of this post-study information page, please do not make it available to other students.
+8.5209 	EXP 	Question text: Because some elements of the study are different from what was originally explained, there is another consent form for you to read and sign electronically if you are willing to allow us to use the information you have provided. This consent is also a record that the full purpose of the study was explained to you.
+8.5300 	EXP 	Question text: We would like to remind you that your confidentiality is guaranteed. Your questionnaire responses will be identified by code number only and you will not be identified by name in any report, publication, or presentation resulting from this study. The data file will be stored for at least 5 years in electronic form on the password-protected computer of the Faculty Investigator.
+8.5403 	EXP 	Question text: This study has been reviewed and received ethics clearance through a University of Waterloo Research Ethics Board (#44380). If you have questions for the Board, contact the Office of Research Ethics, at 1-519-888-4567 ext. 36005 or reb@uwaterloo.ca.
+8.5480 	EXP 	Question text: If your participation in this study has raised personal issues that concern you, we encourage you to contact UW Counselling Services at 888-4567, ext. 32655.
+8.5536 	EXP 	Question text: If you’d like to learn more about the ideas behind this research, we encourage you to read:
+8.5570 	EXP 	Question text: Burris, C., & Leitch, R. (2018). Harmful fun: Pranks and sadistic motivation. Motivation And Emotion, 42(1), 90-102. doi: 10.1007/s11031-017-9651-5
+8.5663 	EXP 	Question text: Dijksterhuis, A., & Aarts, H. (2010). Goals, attention, and (un)consciousness. Annual Review of Psychology, 61(1), 467-490. https://doi.org/10.1146/annurev.psych.093008.100445
+8.5724 	EXP 	Question text: If you’d like more information, feel free to contact the Faculty Investigator as listed above.
+8.5757 	EXP 	Question text: We really appreciate your participation, and hope that this has been a worthwhile experience for you.
+8.5797 	EXP 	window1: mouseVisible = True
+8.6611 	EXP 	Created feedbackform = <psychopy.visual.form.Form object at 0x000001E929FDEAC0>
+8.6645 	EXP 	window1: mouseVisible = True
+8.6678 	EXP 	Imported debriefform.csv as conditions, 7 conditions, 13 params
+8.6684 	EXP 	Question text: Post-debriefing Consent Form
+8.6725 	EXP 	Question text: Project Title: It's All Fun and Pranks
+8.6753 	EXP 	Question text: Faculty Investigator: Dr. Chris Burris, Psychology (St. Jerome's). 519-884-8111x28213 (cburris@uwaterloo.ca)
+8.6788 	EXP 	Question text: Student Investigator: Maya Karmakar-Johnson, Psychology (mkarmaka@uwaterloo.ca)
+8.6824 	EXP 	Question text: In the online debriefing, I was given an explanation as to why it was necessary for the researchers to withhold some information regarding some elements of this study. I was informed that having full information about the actual purpose of the study might have influenced the way in which I responded to the tasks and this would have invalidated the results. I have now received a complete written explanation as to the actual purpose and procedures of the study. In addition, I have had an opportunity to ask any questions about this and to receive acceptable answers to my questions. I am aware that my decision to give or withhold permission to use my data will not affect my receipt of the applicable research credit.
+8.7004 	EXP 	Question text: I am aware that I may contact the Office of Research Ethics, at 1-519-888-4567 ext. 36005 or reb@uwaterloo.ca if I have any concerns or comments resulting from my involvement in this study.
+8.7071 	EXP 	Question text: I give my permission for the researchers to use my data and/or the information I provided through the online survey for this study.
+8.7129 	EXP 	window1: mouseVisible = True
+8.7304 	EXP 	window1: mouseVisible = True
+8.7543 	EXP 	Created debriefform = <psychopy.visual.form.Form object at 0x000001E92A05C2E0>
+8.8093 	EXP 	unnamed Form: autoLog = True
+8.8093 	EXP 	infoletter: name = 'infoletter'
+8.8093 	EXP 	infoletter: depth = 0
+8.8093 	EXP 	unnamed Form: autoLog = True
+8.8093 	EXP 	consentform: name = 'consentform'
+8.8093 	EXP 	consentform: depth = 0
+8.8093 	EXP 	unnamed Form: autoLog = True
+8.8093 	EXP 	instructionsform: name = 'instructionsform'
+8.8093 	EXP 	instructionsform: depth = 0
+8.8093 	EXP 	slider: autoLog = True
+8.8093 	EXP 	slider: markerPos = None
+8.8093 	EXP 	slider: styleTweaks = []
+8.8093 	EXP 	slider: styleTweaks = []
+8.8093 	EXP 	slider: styleTweaks = []
+8.8093 	EXP 	slider: styleTweaks = []
+8.8093 	EXP 	slider: contrast = 1.0
+8.8093 	EXP 	slider: autoLog = True
+8.8093 	EXP 	unnamed Form: autoLog = True
+8.8093 	EXP 	respectform: name = 'respectform'
+8.8093 	EXP 	respectform: depth = 0
+8.8093 	EXP 	unnamed Form: autoLog = True
+8.8093 	EXP 	angerform: name = 'angerform'
+8.8093 	EXP 	angerform: depth = 0
+8.8093 	EXP 	unnamed Form: autoLog = True
+8.8093 	EXP 	demoForm: name = 'demoForm'
+8.8093 	EXP 	demoForm: depth = 0
+8.8093 	EXP 	unnamed Form: autoLog = True
+8.8093 	EXP 	feedbackform: name = 'feedbackform'
+8.8093 	EXP 	feedbackform: depth = 0
+8.8093 	EXP 	unnamed Form: autoLog = True
+8.8093 	EXP 	debriefform: name = 'debriefform'
+8.8093 	EXP 	debriefform: depth = 0
+8.8093 	EXP 	infoletter: autoDraw = True
+15.3561 	EXP 	window1: mouseVisible = True

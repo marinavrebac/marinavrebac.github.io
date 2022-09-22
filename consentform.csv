@@ -1,0 +1,9 @@
+index,itemText,type,options,ticks,tickLabels,layout,itemColor,itemWidth,responseColor,responseWidth,granularity,font
+,Consent for Participation,heading,,,,,,,,,,
+,"By consenting to participate, you are not waiving your legal rights or releasing the investigator(s) or involved institution(s) from their legal and professional responsibilities.",description,,,,,,,,,,
+,"I have read the information presented in the information letter about a study being conducted under the supervision of Chris Burris, Department of Psychology, St. Jerome's University (cburris@uwaterloo.ca). I have made this decision based on the information provided. I have had the opportunity to ask any questions related to this study, to receive satisfactory answers to my questions, and any additional details I wanted.",description,,,,,,,,,,
+,"As a participant in this online study, I am aware that my identity will remain confidential.",description,,,,,,,,,,
+,I am aware that I may withdraw from participating before reaching the end of the study without penalty.,description,,,,,,,,,,
+,"This study has been reviewed and received ethics clearance through a University of Waterloo Research Ethics Committee (REB# 44380). If you have questions for the Committee, contact the Office of Research Ethics at 1-519-888-4567 ext. 36005 or ore-ceo@uwaterloo.ca",description,,,,,,,,,,
+,"If you have any questions about the study, either before or after participating, please feel free to contact the Faculty Investigator.",description,,,,,,,,,,
+,I agree to participate in this study:,choice,"Yes,No",,,,,,,,,

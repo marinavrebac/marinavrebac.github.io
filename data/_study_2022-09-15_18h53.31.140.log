@@ -1,0 +1,1035 @@
+1.1834 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+27.6916 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+28.0830 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000226ADB82FA0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000226ADC396A0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+28.0834 	EXP 	window1: mouseVisible = True
+28.0834 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+28.0834 	EXP 	window1: recordFrameIntervals = False
+28.1576 	EXP 	window1: recordFrameIntervals = True
+28.2358 	EXP 	Screen (0) actual frame rate measured at 142.35Hz
+28.2358 	EXP 	window1: recordFrameIntervals = False
+29.7758 	EXP 	window1: mouseVisible = True
+29.7801 	EXP 	Imported informationletter.csv as conditions, 12 conditions, 13 params
+29.7808 	EXP 	Question text: Information Letter
+29.8080 	EXP 	Question text: Project Title: It's All Fun and Pranks
+29.8400 	EXP 	Question text: Faculty Investigator: Dr. Chris Burris, Psychology (St. Jerome's). 519-884-8111x28213 (cburris@uwaterloo.ca)
+29.8809 	EXP 	Question text: Student Investigator: Maya Karmakar-Johnson, Psychology (mkarmaka@uwaterloo.ca)
+29.8880 	EXP 	Question text: This online research is being conducted as part of the Student Investigator's undergraduate honours thesis. It focuses on how people react to pranking behaviour and factors that affect those reactions.
+29.8980 	EXP 	Question text: In this study, you will be asked first to read several short accounts of actual pranks and then react to each (for example, how funny you did – or didn't – find that prank to be). You will then be asked to complete two short measures concerning your responses to how other people interact with you – specifically, how important feeling respected and dealing with anger are for you. Finally, we'll ask you to complete a brief demographic questionnaire that asks basic questions such as your age and gender (so that we can accurately summarize the study sample's characteristics in any future reports). After that, you'll be able to learn more about the study's purpose.
+29.9209 	EXP 	Question text: We expect this study to take no more than 30 minutes of your time. Participation is voluntary. Although no direct benefits to you are anticipated, we hope that you will learn more about the variety of research methods that are employed to test psychological hypotheses. In appreciation for your participation, you will receive 0.5 participation credits toward your applicable Psychology class.
+29.9362 	EXP 	Question text: The risks associated with participation in the study are expected to be no greater than what you might experience in your day-to-day life. Indeed, reacting to others' embarrassing or awkward experiences, as well as how we deal with how people treat us, are common experiences for many. Having said that, you may choose not to complete any proportion of the study but will still receive your 0.5 participation credit. If you do choose to withdraw from the study before reaching the end, we would ask that you please skip to the end to read the feedback letter. Once you have submitted your responses it is not possible to withdraw your consent to participate, however, as we have no way of knowing which responses are yours.
+29.9575 	EXP 	Question text: You will be completing the study by an online survey operated by Qualtrics. Qualtrics has implemented technical, administrative, and physical safeguards to protect the information provided via the Services from loss, misuse, and unauthorized access, disclosure, alteration, or destruction. However, no Internet transmission is ever fully secure or error free. University of Waterloo researchers will not collect or use internet protocol (IP) addresses or other information which could link your participation to your computer or electronic device without first informing you.
+29.9762 	EXP 	Question text: Your identity will be confidential: your questionnaire responses will be identified by a code. You will not be identified by name in any report, publication, or presentation resulting from this study. If you choose to participate your data will be stored for at least 5 years on the password-protected computer on the Faculty Investigator.
+29.9858 	EXP 	Question text: If you have any questions about the study, either before or after participating, please feel free to contact the Faculty Investigator as shown above.
+29.9914 	EXP 	Question text: This study has been reviewed and received ethics clearance through a University of Waterloo Research Ethics Board (REB# 44380). If you have questions for the Board, contact the Office of Research Ethics, at 1-519-888-4567 ext. 36005 or reb@uwaterloo.ca
+30.0163 	EXP 	window1: mouseVisible = True
+30.0661 	EXP 	Created infoletter = <psychopy.visual.form.Form object at 0x00000226AF0B4100>
+30.0695 	EXP 	window1: mouseVisible = True
+30.0729 	EXP 	Imported consentform.csv as conditions, 8 conditions, 13 params
+30.0734 	EXP 	Question text: Consent for Participation
+30.0881 	EXP 	Question text: By consenting to participate, you are not waiving your legal rights or releasing the investigator(s) or involved institution(s) from their legal and professional responsibilities.
+30.0943 	EXP 	Question text: I have read the information presented in the information letter about a study being conducted under the supervision of Chris Burris, Department of Psychology, St. Jerome's University (cburris@uwaterloo.ca). I have made this decision based on the information provided. I have had the opportunity to ask any questions related to this study, to receive satisfactory answers to my questions, and any additional details I wanted.
+30.1057 	EXP 	Question text: As a participant in this online study, I am aware that my identity will remain confidential.
+30.1092 	EXP 	Question text: I am aware that I may withdraw from participating before reaching the end of the study without penalty.
+30.1127 	EXP 	Question text: This study has been reviewed and received ethics clearance through a University of Waterloo Research Ethics Committee (REB# 44380). If you have questions for the Committee, contact the Office of Research Ethics at 1-519-888-4567 ext. 36005 or ore-ceo@uwaterloo.ca
+30.1211 	EXP 	Question text: If you have any questions about the study, either before or after participating, please feel free to contact the Faculty Investigator.
+30.1251 	EXP 	Question text: I agree to participate in this study:
+30.1286 	EXP 	window1: mouseVisible = True
+30.1493 	EXP 	window1: mouseVisible = True
+30.1732 	EXP 	Created consentform = <psychopy.visual.form.Form object at 0x00000226ACF612E0>
+30.1767 	EXP 	window1: mouseVisible = True
+30.1798 	EXP 	Imported HO.csv as conditions, 3 conditions, 13 params
+30.1803 	EXP 	Question text: Instructions
+30.1854 	EXP 	Question text: Imagine that there exists a part deep within you that you could call the "hidden observer." This part of you knows every detail of all behaviour and thought processes that go on within you and is aware of the deepest intimate information about yourself. However, it cannot be asked to talk about this intimate information unless it is allowed by you to do so.
+30.1976 	EXP 	Question text: Five brief descriptions of prank experiences from the target's perspective (taken from the website fmylife.com) appear below. Please read each one and - from the perspective of your "hidden observer" - rate your reactions to it.
+30.2054 	EXP 	window1: mouseVisible = True
+30.2199 	EXP 	Created instructionsform = <psychopy.visual.form.Form object at 0x00000226ACE16760>
+30.2325 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+30.2336 	EXP 	Created prankText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='prankText', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+30.2346 	EXP 	Created promptText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='promptText', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.11]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+30.2659 	EXP 	Created hiddenobserver = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='hiddenobserver', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.05]), rgb=UNKNOWN, text='My "hidden observer" says that:', units='height', win=Window(...), wrapWidth=1)
+30.2701 	EXP 	window1: mouseVisible = True
+30.3641 	EXP 	Created slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-3, fillColor=None, flip=True, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='slider', opacity=None, ori=0.0, pos=array([ 0. , -0.3]), readOnly=False, self=UNKNOWN, size=array([1.  , 0.07]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7, 8]), units='height', win=Window(...))
+30.3652 	EXP 	Created primertext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0.2098, 0.2098, 0.2059]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='primertext', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+30.3687 	EXP 	Imported aboutrespect_part1.csv as conditions, 8 conditions, 13 params
+30.3694 	EXP 	Question text: About Respect
+30.3812 	EXP 	Question text: The following questions ask you about what you think other people are like and what you think about how they act.
+30.3851 	EXP 	Question text: I feel disrespected when people don’t include me in the group.
+30.3904 	EXP 	window1: mouseVisible = True
+30.4344 	EXP 	Question text: It is important that people show that they respect you.
+30.4384 	EXP 	window1: mouseVisible = True
+30.4832 	EXP 	Question text: I feel disrespected when a group is making a decision and I don’t get to say what I think.
+30.4876 	EXP 	window1: mouseVisible = True
+30.5313 	EXP 	Question text: People want to make you feel like they are better than you.
+30.5354 	EXP 	window1: mouseVisible = True
+30.5790 	EXP 	Question text: I feel disrespected when people tease me.
+30.5827 	EXP 	window1: mouseVisible = True
+30.6270 	EXP 	Question text: It is important to let people know that they should respect you.
+30.6309 	EXP 	window1: mouseVisible = True
+30.6751 	EXP 	window1: mouseVisible = True
+30.7173 	EXP 	Created respectform = <psychopy.visual.form.Form object at 0x00000226ACE9B400>
+30.7207 	EXP 	window1: mouseVisible = True
+30.7239 	EXP 	window1: mouseVisible = True
+30.7276 	EXP 	Imported aboutanger - Sheet1.csv as conditions, 12 conditions, 13 params
+30.7283 	EXP 	Question text: About Anger
+30.7343 	EXP 	Question text: Please rate how often you do what is described in each item.
+30.7376 	EXP 	Question text: When something makes me angry, I turn this matter over and over again in my mind.
+30.7416 	EXP 	window1: mouseVisible = True
+30.7650 	EXP 	Question text: I have long living fantasies of revenge after the conflict is over.
+30.7689 	EXP 	window1: mouseVisible = True
+30.7920 	EXP 	Question text: I ponder about the injustices that have been done to me.
+30.7958 	EXP 	window1: mouseVisible = True
+30.8188 	EXP 	Question text: I think about the reasons people treat me badly.
+30.8226 	EXP 	window1: mouseVisible = True
+30.8461 	EXP 	Question text: When someone makes me angry, I can't stop thinking about how to get back at this person.
+30.8502 	EXP 	window1: mouseVisible = True
+30.8738 	EXP 	Question text: I keep thinking about events that angered me for a long time.
+30.8776 	EXP 	window1: mouseVisible = True
+30.9005 	EXP 	Question text: Whenever I experience anger, I keep thinking about it for a while.
+30.9045 	EXP 	window1: mouseVisible = True
+30.9270 	EXP 	Question text: I re-enact the anger episode in my mind after it has happened.
+30.9309 	EXP 	window1: mouseVisible = True
+30.9538 	EXP 	Question text: I think about certain events from a long time ago and they still make me angry.
+30.9579 	EXP 	window1: mouseVisible = True
+30.9809 	EXP 	Question text: I have had times when I could not stop being preoccupied with a particular conflict.
+30.9850 	EXP 	window1: mouseVisible = True
+31.0082 	EXP 	window1: mouseVisible = True
+31.0481 	EXP 	Created angerform = <psychopy.visual.form.Form object at 0x00000226AD408340>
+31.0516 	EXP 	Imported demographic.csv as conditions, 9 conditions, 13 params
+31.0522 	EXP 	Question text: Background Information
+31.0632 	EXP 	Question text: Please complete the following information so that we can summarize the background characteristics of this study’s participants as part of any subsequent research reports. Your identity is confidential. Remember that you may decline to answer any question by leaving it blank if you choose
+31.0717 	EXP 	Question text: Your gender?
+31.0769 	EXP 	window1: mouseVisible = True
+31.1052 	EXP 	Question text: Gender (if other)
+31.1128 	EXP 	Question text: Your Age
+31.1161 	EXP 	window1: mouseVisible = True
+31.1395 	EXP 	Question text: Your Ethnicity (ie. the ethnic group or nationality with which you most strongly identify)?
+31.1456 	EXP 	Question text: Were you born in Canada
+31.1491 	EXP 	window1: mouseVisible = True
+31.1645 	EXP 	Question text: If you are now living in Canada, but were not born here, how long have you lived here?
+31.1704 	EXP 	Question text: Finally, we would like you to write a couple of sentences about something you've done or accomplished recently that you feel really good about:
+31.1789 	EXP 	window1: mouseVisible = True
+31.2032 	EXP 	Created demoForm = <psychopy.visual.form.Form object at 0x00000226AD64DC40>
+31.2067 	EXP 	window1: mouseVisible = True
+31.2141 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Study Complete', units='height', win=Window(...), wrapWidth=1)
+31.2174 	EXP 	window1: mouseVisible = True
+31.2220 	EXP 	Imported feedbackletter.csv as conditions, 27 conditions, 13 params
+31.2227 	EXP 	Question text: Feedback Letter
+31.2282 	EXP 	Question text: Project Title: It's All Fun and Pranks
+31.2310 	EXP 	Question text: Faculty Investigator: Dr. Chris Burris, Psychology (St. Jerome's). 519-884-8111x28213 (cburris@uwaterloo.ca)
+31.2346 	EXP 	Question text: Student Investigator: Maya Karmakar-Johnson, Psychology (mkarmaka@uwaterloo.ca)
+31.2379 	EXP 	Question text: We appreciate your participation, and we thank you for spending time helping us with our research. At the beginning of the study, you were informed that its focus was on how people react to pranking behaviour and factors that affect those reactions. We would now like to explain the purpose of the study in greater detail.
+31.2472 	EXP 	Question text: Although many people view pranks as “harmless fun,” Burris and Leitch (2018) showed that pranking can sometimes serve as an outlet for sadistic motivation – understood as wanting someone else to feel bad, however briefly, because the thought of that makes oneself feel good. By their very nature, pranks involve a gotcha whereby the person being pranked is subject to some degree of physical or psychological discomfort – if that doesn’t happen, then the prank is declared to have “failed.”
+31.2643 	EXP 	Question text: Importantly, Burris and Leitch (2018) showed that positive reactions to pranks – whether performed by the self or by someone else – were predicted by a joint tendency to feel disrespected and to have difficulty letting go of anger related to past insults. Having identified this combo as the “engine” driving sadistic motivation, Burris and Leitch argued that sadistic motivation’s ultimate goal is to boost back up a self that feels deflated or “squashed,” and that seeing another come to harm is a means to this end.
+31.2776 	EXP 	Question text: This analysis of pranking raises a paradox: Most pranksters look happy, even giddy – they don’t look angry or hostile. Dijksterhuis and Aarts (2010) reviewed research suggesting that goals can drive behavior even when the goals are outside of awareness – that is, unconscious. With that in mind, the present study was set up to see whether the presumed ultimate goal driving sadistic motivation – that is, boosting the self – was operating nonconsciously.
+31.2895 	EXP 	Question text: To do that, we attempted to create either a “mini-boost” or a “mini-squash” to the self outside of your conscious awareness. Thus, as you read each prank story and reacted to it, you were randomly assigned to any of three possible subliminal primes: (1) “you are awesome” (boost); (2) “you are nothing” (squash); or (3) “people are walking” (neutral). These primes appeared before the general story instructions, before each story, and before each reaction item. After that, we had you complete short versions of the disrespect sensitivity and anger rumination measures used by Burris and Leitch (2018) to identify people who are more or less likely to respond to “squashed” feelings by reacting positively to others’ discomfort. To ensure that any possible negative effect of the “squash” prime would be neutralized quickly, we asked everyone to reflect on a recent positive personal experience at the end of the study.
+31.3125 	EXP 	Question text: We expected the most positive reactions to the prank stories to emerge among people who received the “squash” primes, and who already struggle more with feeling angry and disrespected.
+31.3188 	EXP 	Question text: So, to be clear, we are indeed interested in how people react to pranking behaviour and factors that affect those reactions, but this study explored a very specific aspect of that – that is, nonconscious motivation, which we investigated by means of subliminal primes.
+31.3269 	EXP 	Question text: We apologize that we did not alert to you our use of subliminal primes at the outset – but we hope you understand that, had we done so, you would have probably been on the lookout for (or trying to guess) the primes we were using, which would compromise their effectiveness. Although not all psychology research involves withholding information at the outset like this, there is sometimes no practical alternative that allows for a valid test of hypotheses such as ours concerning nonconscious nature of sadistic motivation. We hope this makes sense to you.
+31.3409 	EXP 	Question text: So, to summarize:
+31.3442 	EXP 	Question text: 1) Pranking is sometimes used as an outlet for sadistic motivation.
+31.3473 	EXP 	Question text: 2) The ultimate goal of sadistic motivation may be to boost the self, even if at others’ expense. 
+31.3510 	EXP 	Question text: 3) The present study used subliminal priming to test whether this hypothesized of boosting the self is operating outside of conscious awareness. 
+31.3566 	EXP 	Question text: 4) To test our hypothesis, we had to withhold information concerning our use of subliminal primes initially.
+31.3601 	EXP 	Question text: Given (4) just above, it is very important that you not discuss your experiences with any other students who potentially could be in this study until after the end of the term. If people come into the study knowing about our specific predictions, it could influence their results, and the data we collect would not be useable. Also, if you print off a copy of this post-study information page, please do not make it available to other students.
+31.3718 	EXP 	Question text: Because some elements of the study are different from what was originally explained, there is another consent form for you to read and sign electronically if you are willing to allow us to use the information you have provided. This consent is also a record that the full purpose of the study was explained to you.
+31.3811 	EXP 	Question text: We would like to remind you that your confidentiality is guaranteed. Your questionnaire responses will be identified by code number only and you will not be identified by name in any report, publication, or presentation resulting from this study. The data file will be stored for at least 5 years in electronic form on the password-protected computer of the Faculty Investigator.
+31.3914 	EXP 	Question text: This study has been reviewed and received ethics clearance through a University of Waterloo Research Ethics Board (#44380). If you have questions for the Board, contact the Office of Research Ethics, at 1-519-888-4567 ext. 36005 or reb@uwaterloo.ca.
+31.3992 	EXP 	Question text: If your participation in this study has raised personal issues that concern you, we encourage you to contact UW Counselling Services at 888-4567, ext. 32655.
+31.4049 	EXP 	Question text: If you’d like to learn more about the ideas behind this research, we encourage you to read:
+31.4082 	EXP 	Question text: Burris, C., & Leitch, R. (2018). Harmful fun: Pranks and sadistic motivation. Motivation And Emotion, 42(1), 90-102. doi: 10.1007/s11031-017-9651-5
+31.4174 	EXP 	Question text: Dijksterhuis, A., & Aarts, H. (2010). Goals, attention, and (un)consciousness. Annual Review of Psychology, 61(1), 467-490. https://doi.org/10.1146/annurev.psych.093008.100445
+31.4240 	EXP 	Question text: If you’d like more information, feel free to contact the Faculty Investigator as listed above.
+31.4277 	EXP 	Question text: We really appreciate your participation, and hope that this has been a worthwhile experience for you.
+31.4319 	EXP 	window1: mouseVisible = True
+31.5128 	EXP 	Created feedbackform = <psychopy.visual.form.Form object at 0x00000226AD81BA30>
+31.5164 	EXP 	window1: mouseVisible = True
+31.5197 	EXP 	Imported debriefform.csv as conditions, 7 conditions, 13 params
+31.5203 	EXP 	Question text: Post-debriefing Consent Form
+31.5243 	EXP 	Question text: Project Title: It's All Fun and Pranks
+31.5272 	EXP 	Question text: Faculty Investigator: Dr. Chris Burris, Psychology (St. Jerome's). 519-884-8111x28213 (cburris@uwaterloo.ca)
+31.5307 	EXP 	Question text: Student Investigator: Maya Karmakar-Johnson, Psychology (mkarmaka@uwaterloo.ca)
+31.5341 	EXP 	Question text: In the online debriefing, I was given an explanation as to why it was necessary for the researchers to withhold some information regarding some elements of this study. I was informed that having full information about the actual purpose of the study might have influenced the way in which I responded to the tasks and this would have invalidated the results. I have now received a complete written explanation as to the actual purpose and procedures of the study. In addition, I have had an opportunity to ask any questions about this and to receive acceptable answers to my questions. I am aware that my decision to give or withhold permission to use my data will not affect my receipt of the applicable research credit.
+31.5517 	EXP 	Question text: I am aware that I may contact the Office of Research Ethics, at 1-519-888-4567 ext. 36005 or reb@uwaterloo.ca if I have any concerns or comments resulting from my involvement in this study.
+31.5584 	EXP 	Question text: I give my permission for the researchers to use my data and/or the information I provided through the online survey for this study.
+31.5642 	EXP 	window1: mouseVisible = True
+31.5810 	EXP 	window1: mouseVisible = True
+31.6050 	EXP 	Created debriefform = <psychopy.visual.form.Form object at 0x00000226AD891790>
+31.6576 	EXP 	unnamed Form: autoLog = True
+31.6576 	EXP 	infoletter: name = 'infoletter'
+31.6576 	EXP 	infoletter: depth = 0
+31.6576 	EXP 	unnamed Form: autoLog = True
+31.6576 	EXP 	consentform: name = 'consentform'
+31.6576 	EXP 	consentform: depth = 0
+31.6576 	EXP 	unnamed Form: autoLog = True
+31.6576 	EXP 	instructionsform: name = 'instructionsform'
+31.6576 	EXP 	instructionsform: depth = 0
+31.6576 	EXP 	slider: autoLog = True
+31.6576 	EXP 	slider: markerPos = None
+31.6576 	EXP 	slider: styleTweaks = []
+31.6576 	EXP 	slider: styleTweaks = []
+31.6576 	EXP 	slider: styleTweaks = []
+31.6576 	EXP 	slider: styleTweaks = []
+31.6576 	EXP 	slider: contrast = 1.0
+31.6576 	EXP 	slider: autoLog = True
+31.6576 	EXP 	unnamed Form: autoLog = True
+31.6576 	EXP 	respectform: name = 'respectform'
+31.6576 	EXP 	respectform: depth = 0
+31.6576 	EXP 	unnamed Form: autoLog = True
+31.6576 	EXP 	angerform: name = 'angerform'
+31.6576 	EXP 	angerform: depth = 0
+31.6576 	EXP 	unnamed Form: autoLog = True
+31.6576 	EXP 	demoForm: name = 'demoForm'
+31.6576 	EXP 	demoForm: depth = 0
+31.6576 	EXP 	unnamed Form: autoLog = True
+31.6576 	EXP 	feedbackform: name = 'feedbackform'
+31.6576 	EXP 	feedbackform: depth = 0
+31.6576 	EXP 	unnamed Form: autoLog = True
+31.6576 	EXP 	debriefform: name = 'debriefform'
+31.6576 	EXP 	debriefform: depth = 0
+31.6576 	EXP 	infoletter: autoDraw = True
+33.1458 	DATA 	Mouse: Left button down, pos=(1839,72)
+33.1833 	EXP 	infoletter: autoDraw = False
+33.1833 	EXP 	consentform: autoDraw = True
+33.2137 	DATA 	Mouse:  Left button up, pos=(1839,72)
+36.3886 	DATA 	Mouse: wheel shift=(0,-1), pos=(1372,283)
+36.4218 	DATA 	Mouse: wheel shift=(0,-2), pos=(1372,283)
+36.4563 	DATA 	Mouse: wheel shift=(0,-3), pos=(1372,283)
+36.4907 	DATA 	Mouse: wheel shift=(0,-1), pos=(1372,283)
+36.6818 	DATA 	Mouse: wheel shift=(0,-1), pos=(1378,277)
+36.7131 	DATA 	Mouse: wheel shift=(0,-5), pos=(1378,277)
+36.7213 	DATA 	Mouse: wheel shift=(0,-1), pos=(1378,277)
+36.7529 	DATA 	Mouse: wheel shift=(0,-3), pos=(1378,277)
+36.9500 	DATA 	Mouse: wheel shift=(0,-4), pos=(1383,272)
+36.9598 	DATA 	Mouse: wheel shift=(0,-2), pos=(1383,272)
+36.9907 	DATA 	Mouse: wheel shift=(0,-3), pos=(1383,272)
+37.1890 	DATA 	Mouse: wheel shift=(0,-1), pos=(1368,275)
+37.1930 	DATA 	Mouse: wheel shift=(0,-1), pos=(1347,279)
+37.1992 	DATA 	Mouse: wheel shift=(0,-1), pos=(1343,280)
+37.2274 	DATA 	Mouse: wheel shift=(0,-4), pos=(1335,281)
+37.2315 	DATA 	Mouse: wheel shift=(0,-1), pos=(1296,287)
+37.2391 	DATA 	Mouse: wheel shift=(0,-1), pos=(1289,288)
+37.2674 	DATA 	Mouse: wheel shift=(0,-1), pos=(1275,290)
+38.1436 	DATA 	Mouse: Left button down, pos=(597,242)
+38.1839 	DATA 	Mouse:  Left button up, pos=(597,242)
+38.9412 	DATA 	Mouse: Left button down, pos=(1836,64)
+38.9723 	EXP 	consentform: autoDraw = False
+38.9723 	EXP 	instructionsform: autoDraw = True
+38.9835 	DATA 	Mouse:  Left button up, pos=(1836,64)
+40.4957 	DATA 	Mouse: Left button down, pos=(1859,66)
+40.4964 	EXP 	Created sequence: sequential, trialTypes=1, nReps=5, seed=None
+40.4965 	EXP 	New trial (rep=0, index=0): None
+40.5065 	EXP 	instructionsform: autoDraw = False
+40.5065 	EXP 	text: height = 0.1
+40.5065 	EXP 	text: height = 0.1
+40.5065 	EXP 	text: height = 0.1
+40.5065 	EXP 	text: text = 'Prank 1'
+40.5065 	EXP 	text: autoDraw = True
+40.5734 	DATA 	Mouse:  Left button up, pos=(1859,66)
+42.4989 	EXP 	Created sequence: sequential, trialTypes=1, nReps=6, seed=None
+42.4990 	EXP 	New trial (rep=0, index=0): None
+42.5384 	EXP 	text: autoDraw = False
+42.5384 	EXP 	slider: markerPos = None
+42.5384 	EXP 	slider: markerPos = None
+42.5384 	EXP 	primertext: height = 0.05
+42.5384 	EXP 	primertext: height = 0.05
+42.5384 	EXP 	primertext: height = 0.05
+42.5384 	EXP 	primertext: text = "You're great"
+42.5384 	EXP 	prankText: autoDraw = True
+42.5384 	EXP 	slider: autoDraw = True
+42.5384 	EXP 	primertext: autoDraw = True
+42.5491 	EXP 	primertext: autoDraw = False
+42.5653 	EXP 	promptText: autoDraw = True
+42.5653 	EXP 	hiddenobserver: autoDraw = True
+43.2635 	DATA 	Mouse: Left button down, pos=(1481,213)
+43.2810 	EXP 	slider: markerPos = 7.876851946115494
+43.2942 	EXP 	slider: markerPos = 7.876851946115494
+43.3076 	EXP 	slider: markerPos = 7.876851946115494
+43.3208 	EXP 	slider: markerPos = 7.876851946115494
+43.3311 	DATA 	Mouse:  Left button up, pos=(1481,213)
+43.3341 	EXP 	slider: markerPos = 7.876851946115494
+43.3471 	EXP 	slider: markerPos = 8.0
+43.3496 	EXP 	New trial (rep=1, index=0): None
+43.3649 	EXP 	prankText: autoDraw = False
+43.3649 	EXP 	promptText: autoDraw = False
+43.3649 	EXP 	hiddenobserver: autoDraw = False
+43.3649 	EXP 	slider: autoDraw = False
+43.3649 	EXP 	primertext: autoDraw = False
+43.3649 	EXP 	slider: markerPos = None
+43.3649 	EXP 	slider: markerPos = None
+43.3649 	EXP 	primertext: text = "You're great"
+43.3649 	EXP 	prankText: autoDraw = True
+43.3649 	EXP 	slider: autoDraw = True
+43.3649 	EXP 	primertext: autoDraw = True
+43.3749 	EXP 	primertext: autoDraw = False
+43.3900 	EXP 	promptText: autoDraw = True
+43.3900 	EXP 	hiddenobserver: autoDraw = True
+43.6058 	DATA 	Mouse: Left button down, pos=(1490,214)
+43.6233 	EXP 	slider: markerPos = 7.935185223817825
+43.6369 	EXP 	slider: markerPos = 7.935185223817825
+43.6503 	EXP 	slider: markerPos = 7.935185223817825
+43.6606 	DATA 	Mouse:  Left button up, pos=(1490,214)
+43.6636 	EXP 	slider: markerPos = 7.935185223817825
+43.6767 	EXP 	slider: markerPos = 8.0
+43.6790 	EXP 	New trial (rep=2, index=0): None
+43.6943 	EXP 	prankText: autoDraw = False
+43.6943 	EXP 	promptText: autoDraw = False
+43.6943 	EXP 	hiddenobserver: autoDraw = False
+43.6943 	EXP 	slider: autoDraw = False
+43.6943 	EXP 	primertext: autoDraw = False
+43.6943 	EXP 	slider: markerPos = None
+43.6943 	EXP 	slider: markerPos = None
+43.6943 	EXP 	primertext: text = "You're great"
+43.6943 	EXP 	prankText: autoDraw = True
+43.6943 	EXP 	slider: autoDraw = True
+43.6943 	EXP 	primertext: autoDraw = True
+43.7042 	EXP 	primertext: autoDraw = False
+43.7175 	EXP 	promptText: autoDraw = True
+43.7175 	EXP 	hiddenobserver: autoDraw = True
+43.7575 	DATA 	Mouse: Left button down, pos=(1490,214)
+43.7738 	EXP 	slider: markerPos = 7.935185223817825
+43.7870 	EXP 	slider: markerPos = 7.935185223817825
+43.8004 	EXP 	slider: markerPos = 7.935185223817825
+43.8136 	EXP 	slider: markerPos = 7.935185223817825
+43.8268 	EXP 	slider: markerPos = 7.935185223817825
+43.8371 	DATA 	Mouse:  Left button up, pos=(1490,214)
+43.8399 	EXP 	slider: markerPos = 7.935185223817825
+43.8529 	EXP 	slider: markerPos = 8.0
+43.8552 	EXP 	New trial (rep=3, index=0): None
+43.8703 	EXP 	prankText: autoDraw = False
+43.8703 	EXP 	promptText: autoDraw = False
+43.8703 	EXP 	hiddenobserver: autoDraw = False
+43.8703 	EXP 	slider: autoDraw = False
+43.8703 	EXP 	primertext: autoDraw = False
+43.8703 	EXP 	slider: markerPos = None
+43.8703 	EXP 	slider: markerPos = None
+43.8703 	EXP 	primertext: text = "You're great"
+43.8703 	EXP 	prankText: autoDraw = True
+43.8703 	EXP 	slider: autoDraw = True
+43.8703 	EXP 	primertext: autoDraw = True
+43.8798 	EXP 	primertext: autoDraw = False
+43.8946 	EXP 	promptText: autoDraw = True
+43.8946 	EXP 	hiddenobserver: autoDraw = True
+43.9026 	DATA 	Mouse: Left button down, pos=(1490,214)
+43.9185 	EXP 	slider: markerPos = 7.935185223817825
+43.9314 	EXP 	slider: markerPos = 7.935185223817825
+43.9447 	EXP 	slider: markerPos = 7.935185223817825
+43.9579 	EXP 	slider: markerPos = 7.935185223817825
+43.9710 	EXP 	slider: markerPos = 7.935185223817825
+43.9842 	EXP 	slider: markerPos = 7.935185223817825
+43.9944 	DATA 	Mouse:  Left button up, pos=(1490,214)
+43.9974 	EXP 	slider: markerPos = 7.935185223817825
+44.0103 	EXP 	slider: markerPos = 8.0
+44.0126 	EXP 	New trial (rep=4, index=0): None
+44.0278 	EXP 	prankText: autoDraw = False
+44.0278 	EXP 	promptText: autoDraw = False
+44.0278 	EXP 	hiddenobserver: autoDraw = False
+44.0278 	EXP 	slider: autoDraw = False
+44.0278 	EXP 	primertext: autoDraw = False
+44.0278 	EXP 	slider: markerPos = None
+44.0278 	EXP 	slider: markerPos = None
+44.0278 	EXP 	primertext: text = "You're great"
+44.0278 	EXP 	prankText: autoDraw = True
+44.0278 	EXP 	slider: autoDraw = True
+44.0278 	EXP 	primertext: autoDraw = True
+44.0378 	EXP 	primertext: autoDraw = False
+44.0535 	EXP 	promptText: autoDraw = True
+44.0535 	EXP 	hiddenobserver: autoDraw = True
+44.0719 	DATA 	Mouse: Left button down, pos=(1490,214)
+44.0886 	EXP 	slider: markerPos = 7.935185223817825
+44.1019 	EXP 	slider: markerPos = 7.935185223817825
+44.1151 	EXP 	slider: markerPos = 7.935185223817825
+44.1285 	EXP 	slider: markerPos = 7.935185223817825
+44.1397 	DATA 	Mouse:  Left button up, pos=(1490,214)
+44.1427 	EXP 	slider: markerPos = 7.935185223817825
+44.1563 	EXP 	slider: markerPos = 8.0
+44.1587 	EXP 	New trial (rep=5, index=0): None
+44.1745 	EXP 	prankText: autoDraw = False
+44.1745 	EXP 	promptText: autoDraw = False
+44.1745 	EXP 	hiddenobserver: autoDraw = False
+44.1745 	EXP 	slider: autoDraw = False
+44.1745 	EXP 	primertext: autoDraw = False
+44.1745 	EXP 	slider: markerPos = None
+44.1745 	EXP 	slider: markerPos = None
+44.1745 	EXP 	primertext: text = "You're great"
+44.1745 	EXP 	prankText: autoDraw = True
+44.1745 	EXP 	slider: autoDraw = True
+44.1745 	EXP 	primertext: autoDraw = True
+44.1847 	EXP 	primertext: autoDraw = False
+44.1994 	EXP 	promptText: autoDraw = True
+44.1994 	EXP 	hiddenobserver: autoDraw = True
+44.2392 	DATA 	Mouse: Left button down, pos=(1490,214)
+44.2564 	EXP 	slider: markerPos = 7.935185223817825
+44.2698 	EXP 	slider: markerPos = 7.935185223817825
+44.2834 	EXP 	slider: markerPos = 7.935185223817825
+44.2936 	DATA 	Mouse:  Left button up, pos=(1490,214)
+44.2961 	EXP 	slider: markerPos = 7.935185223817825
+44.3094 	EXP 	slider: markerPos = 8.0
+44.3121 	EXP 	New trial (rep=1, index=0): None
+44.3180 	EXP 	prankText: autoDraw = False
+44.3180 	EXP 	promptText: autoDraw = False
+44.3180 	EXP 	hiddenobserver: autoDraw = False
+44.3180 	EXP 	slider: autoDraw = False
+44.3180 	EXP 	primertext: autoDraw = False
+44.3180 	EXP 	text: height = 0.1
+44.3180 	EXP 	text: height = 0.1
+44.3180 	EXP 	text: height = 0.1
+44.3180 	EXP 	text: text = 'Prank 2'
+44.3180 	EXP 	text: autoDraw = True
+44.3829 	DATA 	Mouse: Left button down, pos=(1490,214)
+44.4459 	DATA 	Mouse:  Left button up, pos=(1490,214)
+46.3159 	EXP 	Created sequence: sequential, trialTypes=1, nReps=6, seed=None
+46.3160 	EXP 	New trial (rep=0, index=0): None
+46.3421 	EXP 	text: autoDraw = False
+46.3421 	EXP 	slider: markerPos = None
+46.3421 	EXP 	slider: markerPos = None
+46.3421 	EXP 	primertext: text = "You're great"
+46.3421 	EXP 	prankText: autoDraw = True
+46.3421 	EXP 	slider: autoDraw = True
+46.3421 	EXP 	primertext: autoDraw = True
+46.3526 	EXP 	primertext: autoDraw = False
+46.3654 	EXP 	promptText: autoDraw = True
+46.3654 	EXP 	hiddenobserver: autoDraw = True
+46.5341 	DATA 	Mouse: Left button down, pos=(1489,218)
+46.5511 	EXP 	slider: markerPos = 7.928703725337982
+46.5643 	EXP 	slider: markerPos = 7.928703725337982
+46.5776 	EXP 	slider: markerPos = 7.928703725337982
+46.5911 	EXP 	slider: markerPos = 7.928703725337982
+46.6044 	EXP 	slider: markerPos = 7.928703725337982
+46.6059 	DATA 	Mouse:  Left button up, pos=(1489,218)
+46.6175 	EXP 	slider: markerPos = 8.0
+46.6199 	EXP 	New trial (rep=1, index=0): None
+46.6352 	EXP 	prankText: autoDraw = False
+46.6352 	EXP 	promptText: autoDraw = False
+46.6352 	EXP 	hiddenobserver: autoDraw = False
+46.6352 	EXP 	slider: autoDraw = False
+46.6352 	EXP 	primertext: autoDraw = False
+46.6352 	EXP 	slider: markerPos = None
+46.6352 	EXP 	slider: markerPos = None
+46.6352 	EXP 	primertext: text = "You're great"
+46.6352 	EXP 	prankText: autoDraw = True
+46.6352 	EXP 	slider: autoDraw = True
+46.6352 	EXP 	primertext: autoDraw = True
+46.6448 	EXP 	primertext: autoDraw = False
+46.6577 	EXP 	promptText: autoDraw = True
+46.6577 	EXP 	hiddenobserver: autoDraw = True
+46.6811 	DATA 	Mouse: Left button down, pos=(1489,218)
+46.6931 	EXP 	slider: markerPos = 7.928703725337982
+46.7063 	EXP 	slider: markerPos = 7.928703725337982
+46.7196 	EXP 	slider: markerPos = 7.928703725337982
+46.7333 	EXP 	slider: markerPos = 7.928703725337982
+46.7466 	EXP 	slider: markerPos = 7.928703725337982
+46.7568 	DATA 	Mouse:  Left button up, pos=(1489,218)
+46.7597 	EXP 	slider: markerPos = 7.928703725337982
+46.7726 	EXP 	slider: markerPos = 8.0
+46.7749 	EXP 	New trial (rep=2, index=0): None
+46.7901 	EXP 	prankText: autoDraw = False
+46.7901 	EXP 	promptText: autoDraw = False
+46.7901 	EXP 	hiddenobserver: autoDraw = False
+46.7901 	EXP 	slider: autoDraw = False
+46.7901 	EXP 	primertext: autoDraw = False
+46.7901 	EXP 	slider: markerPos = None
+46.7901 	EXP 	slider: markerPos = None
+46.7901 	EXP 	primertext: text = "You're great"
+46.7901 	EXP 	prankText: autoDraw = True
+46.7901 	EXP 	slider: autoDraw = True
+46.7901 	EXP 	primertext: autoDraw = True
+46.7998 	EXP 	primertext: autoDraw = False
+46.8124 	EXP 	promptText: autoDraw = True
+46.8124 	EXP 	hiddenobserver: autoDraw = True
+46.8307 	DATA 	Mouse: Left button down, pos=(1489,218)
+46.8473 	EXP 	slider: markerPos = 7.928703725337982
+46.8606 	EXP 	slider: markerPos = 7.928703725337982
+46.8740 	EXP 	slider: markerPos = 7.928703725337982
+46.8871 	EXP 	slider: markerPos = 7.928703725337982
+46.8975 	DATA 	Mouse:  Left button up, pos=(1489,218)
+46.9005 	EXP 	slider: markerPos = 7.928703725337982
+46.9136 	EXP 	slider: markerPos = 8.0
+46.9160 	EXP 	New trial (rep=3, index=0): None
+46.9313 	EXP 	prankText: autoDraw = False
+46.9313 	EXP 	promptText: autoDraw = False
+46.9313 	EXP 	hiddenobserver: autoDraw = False
+46.9313 	EXP 	slider: autoDraw = False
+46.9313 	EXP 	primertext: autoDraw = False
+46.9313 	EXP 	slider: markerPos = None
+46.9313 	EXP 	slider: markerPos = None
+46.9313 	EXP 	primertext: text = "You're great"
+46.9313 	EXP 	prankText: autoDraw = True
+46.9313 	EXP 	slider: autoDraw = True
+46.9313 	EXP 	primertext: autoDraw = True
+46.9415 	EXP 	primertext: autoDraw = False
+46.9543 	EXP 	promptText: autoDraw = True
+46.9543 	EXP 	hiddenobserver: autoDraw = True
+46.9838 	DATA 	Mouse: Left button down, pos=(1489,218)
+46.9998 	EXP 	slider: markerPos = 7.928703725337982
+47.0132 	EXP 	slider: markerPos = 7.928703725337982
+47.0261 	EXP 	slider: markerPos = 7.928703725337982
+47.0393 	EXP 	slider: markerPos = 7.928703725337982
+47.0494 	DATA 	Mouse:  Left button up, pos=(1489,218)
+47.0523 	EXP 	slider: markerPos = 7.928703725337982
+47.0654 	EXP 	slider: markerPos = 8.0
+47.0677 	EXP 	New trial (rep=4, index=0): None
+47.0829 	EXP 	prankText: autoDraw = False
+47.0829 	EXP 	promptText: autoDraw = False
+47.0829 	EXP 	hiddenobserver: autoDraw = False
+47.0829 	EXP 	slider: autoDraw = False
+47.0829 	EXP 	primertext: autoDraw = False
+47.0829 	EXP 	slider: markerPos = None
+47.0829 	EXP 	slider: markerPos = None
+47.0829 	EXP 	primertext: text = "You're great"
+47.0829 	EXP 	prankText: autoDraw = True
+47.0829 	EXP 	slider: autoDraw = True
+47.0829 	EXP 	primertext: autoDraw = True
+47.0929 	EXP 	primertext: autoDraw = False
+47.1062 	EXP 	promptText: autoDraw = True
+47.1062 	EXP 	hiddenobserver: autoDraw = True
+47.1356 	DATA 	Mouse: Left button down, pos=(1489,218)
+47.1515 	EXP 	slider: markerPos = 7.928703725337982
+47.1648 	EXP 	slider: markerPos = 7.928703725337982
+47.1776 	EXP 	slider: markerPos = 7.928703725337982
+47.1886 	DATA 	Mouse:  Left button up, pos=(1489,218)
+47.1916 	EXP 	slider: markerPos = 7.928703725337982
+47.2046 	EXP 	slider: markerPos = 8.0
+47.2069 	EXP 	New trial (rep=5, index=0): None
+47.2221 	EXP 	prankText: autoDraw = False
+47.2221 	EXP 	promptText: autoDraw = False
+47.2221 	EXP 	hiddenobserver: autoDraw = False
+47.2221 	EXP 	slider: autoDraw = False
+47.2221 	EXP 	primertext: autoDraw = False
+47.2221 	EXP 	slider: markerPos = None
+47.2221 	EXP 	slider: markerPos = None
+47.2221 	EXP 	primertext: text = "You're great"
+47.2221 	EXP 	prankText: autoDraw = True
+47.2221 	EXP 	slider: autoDraw = True
+47.2221 	EXP 	primertext: autoDraw = True
+47.2317 	EXP 	primertext: autoDraw = False
+47.2444 	EXP 	promptText: autoDraw = True
+47.2444 	EXP 	hiddenobserver: autoDraw = True
+47.2734 	DATA 	Mouse: Left button down, pos=(1489,218)
+47.2899 	EXP 	slider: markerPos = 7.928703725337982
+47.3027 	EXP 	slider: markerPos = 7.928703725337982
+47.3160 	EXP 	slider: markerPos = 7.928703725337982
+47.3292 	EXP 	slider: markerPos = 7.928703725337982
+47.3394 	DATA 	Mouse:  Left button up, pos=(1489,218)
+47.3424 	EXP 	slider: markerPos = 7.928703725337982
+47.3554 	EXP 	slider: markerPos = 8.0
+47.3580 	EXP 	New trial (rep=2, index=0): None
+47.3641 	EXP 	prankText: autoDraw = False
+47.3641 	EXP 	promptText: autoDraw = False
+47.3641 	EXP 	hiddenobserver: autoDraw = False
+47.3641 	EXP 	slider: autoDraw = False
+47.3641 	EXP 	primertext: autoDraw = False
+47.3641 	EXP 	text: height = 0.1
+47.3641 	EXP 	text: height = 0.1
+47.3641 	EXP 	text: height = 0.1
+47.3641 	EXP 	text: text = 'Prank 3'
+47.3641 	EXP 	text: autoDraw = True
+47.4174 	DATA 	Mouse: Left button down, pos=(1489,218)
+47.4805 	DATA 	Mouse:  Left button up, pos=(1489,218)
+47.5644 	DATA 	Mouse: Left button down, pos=(1488,218)
+47.6272 	DATA 	Mouse:  Left button up, pos=(1488,218)
+49.0438 	DATA 	Mouse: Left button down, pos=(1483,219)
+49.1205 	DATA 	Mouse:  Left button up, pos=(1483,219)
+49.3575 	EXP 	Created sequence: sequential, trialTypes=1, nReps=6, seed=None
+49.3576 	EXP 	New trial (rep=0, index=0): None
+49.3840 	EXP 	text: autoDraw = False
+49.3840 	EXP 	text: autoDraw = False
+49.3840 	EXP 	slider: markerPos = None
+49.3840 	EXP 	slider: markerPos = None
+49.3840 	EXP 	primertext: text = "You're great"
+49.3840 	EXP 	prankText: autoDraw = True
+49.3840 	EXP 	slider: autoDraw = True
+49.3840 	EXP 	primertext: autoDraw = True
+49.3942 	EXP 	primertext: autoDraw = False
+49.4067 	EXP 	promptText: autoDraw = True
+49.4067 	EXP 	hiddenobserver: autoDraw = True
+49.5955 	DATA 	Mouse: Left button down, pos=(1483,219)
+49.6119 	EXP 	slider: markerPos = 7.889814734458923
+49.6249 	EXP 	slider: markerPos = 7.889814734458923
+49.6381 	EXP 	slider: markerPos = 7.889814734458923
+49.6513 	EXP 	slider: markerPos = 7.889814734458923
+49.6618 	DATA 	Mouse:  Left button up, pos=(1483,219)
+49.6647 	EXP 	slider: markerPos = 7.889814734458923
+49.6776 	EXP 	slider: markerPos = 8.0
+49.6800 	EXP 	New trial (rep=1, index=0): None
+49.6953 	EXP 	prankText: autoDraw = False
+49.6953 	EXP 	promptText: autoDraw = False
+49.6953 	EXP 	hiddenobserver: autoDraw = False
+49.6953 	EXP 	slider: autoDraw = False
+49.6953 	EXP 	primertext: autoDraw = False
+49.6953 	EXP 	slider: markerPos = None
+49.6953 	EXP 	slider: markerPos = None
+49.6953 	EXP 	primertext: text = "You're great"
+49.6953 	EXP 	prankText: autoDraw = True
+49.6953 	EXP 	slider: autoDraw = True
+49.6953 	EXP 	primertext: autoDraw = True
+49.7049 	EXP 	primertext: autoDraw = False
+49.7176 	EXP 	promptText: autoDraw = True
+49.7176 	EXP 	hiddenobserver: autoDraw = True
+49.7614 	DATA 	Mouse: Left button down, pos=(1483,219)
+49.7732 	EXP 	slider: markerPos = 7.889814734458923
+49.7863 	EXP 	slider: markerPos = 7.889814734458923
+49.7966 	DATA 	Mouse:  Left button up, pos=(1483,219)
+49.7995 	EXP 	slider: markerPos = 7.889814734458923
+49.8125 	EXP 	slider: markerPos = 8.0
+49.8149 	EXP 	New trial (rep=2, index=0): None
+49.8308 	EXP 	prankText: autoDraw = False
+49.8308 	EXP 	promptText: autoDraw = False
+49.8308 	EXP 	hiddenobserver: autoDraw = False
+49.8308 	EXP 	slider: autoDraw = False
+49.8308 	EXP 	primertext: autoDraw = False
+49.8308 	EXP 	slider: markerPos = None
+49.8308 	EXP 	slider: markerPos = None
+49.8308 	EXP 	primertext: text = "You're great"
+49.8308 	EXP 	prankText: autoDraw = True
+49.8308 	EXP 	slider: autoDraw = True
+49.8308 	EXP 	primertext: autoDraw = True
+49.8410 	EXP 	primertext: autoDraw = False
+49.8536 	EXP 	promptText: autoDraw = True
+49.8536 	EXP 	hiddenobserver: autoDraw = True
+49.8978 	DATA 	Mouse: Left button down, pos=(1483,219)
+49.9101 	EXP 	slider: markerPos = 7.889814734458923
+49.9242 	EXP 	slider: markerPos = 7.889814734458923
+49.9376 	EXP 	slider: markerPos = 7.889814734458923
+49.9478 	DATA 	Mouse:  Left button up, pos=(1483,219)
+49.9504 	EXP 	slider: markerPos = 7.889814734458923
+49.9633 	EXP 	slider: markerPos = 8.0
+49.9656 	EXP 	New trial (rep=3, index=0): None
+49.9808 	EXP 	prankText: autoDraw = False
+49.9808 	EXP 	promptText: autoDraw = False
+49.9808 	EXP 	hiddenobserver: autoDraw = False
+49.9808 	EXP 	slider: autoDraw = False
+49.9808 	EXP 	primertext: autoDraw = False
+49.9808 	EXP 	slider: markerPos = None
+49.9808 	EXP 	slider: markerPos = None
+49.9808 	EXP 	primertext: text = "You're great"
+49.9808 	EXP 	prankText: autoDraw = True
+49.9808 	EXP 	slider: autoDraw = True
+49.9808 	EXP 	primertext: autoDraw = True
+49.9909 	EXP 	primertext: autoDraw = False
+50.0039 	EXP 	promptText: autoDraw = True
+50.0039 	EXP 	hiddenobserver: autoDraw = True
+50.0371 	DATA 	Mouse: Left button down, pos=(1483,219)
+50.0497 	EXP 	slider: markerPos = 7.889814734458923
+50.0630 	EXP 	slider: markerPos = 7.889814734458923
+50.0766 	EXP 	slider: markerPos = 7.889814734458923
+50.0907 	EXP 	slider: markerPos = 7.889814734458923
+50.0923 	DATA 	Mouse:  Left button up, pos=(1483,219)
+50.1040 	EXP 	slider: markerPos = 8.0
+50.1063 	EXP 	New trial (rep=4, index=0): None
+50.1215 	EXP 	prankText: autoDraw = False
+50.1215 	EXP 	promptText: autoDraw = False
+50.1215 	EXP 	hiddenobserver: autoDraw = False
+50.1215 	EXP 	slider: autoDraw = False
+50.1215 	EXP 	primertext: autoDraw = False
+50.1215 	EXP 	slider: markerPos = None
+50.1215 	EXP 	slider: markerPos = None
+50.1215 	EXP 	primertext: text = "You're great"
+50.1215 	EXP 	prankText: autoDraw = True
+50.1215 	EXP 	slider: autoDraw = True
+50.1215 	EXP 	primertext: autoDraw = True
+50.1312 	EXP 	primertext: autoDraw = False
+50.1448 	EXP 	promptText: autoDraw = True
+50.1448 	EXP 	hiddenobserver: autoDraw = True
+50.1851 	DATA 	Mouse: Left button down, pos=(1483,219)
+50.2015 	EXP 	slider: markerPos = 7.889814734458923
+50.2146 	EXP 	slider: markerPos = 7.889814734458923
+50.2278 	EXP 	slider: markerPos = 7.889814734458923
+50.2411 	EXP 	slider: markerPos = 7.889814734458923
+50.2425 	DATA 	Mouse:  Left button up, pos=(1483,219)
+50.2541 	EXP 	slider: markerPos = 8.0
+50.2564 	EXP 	New trial (rep=5, index=0): None
+50.2717 	EXP 	prankText: autoDraw = False
+50.2717 	EXP 	promptText: autoDraw = False
+50.2717 	EXP 	hiddenobserver: autoDraw = False
+50.2717 	EXP 	slider: autoDraw = False
+50.2717 	EXP 	primertext: autoDraw = False
+50.2717 	EXP 	slider: markerPos = None
+50.2717 	EXP 	slider: markerPos = None
+50.2717 	EXP 	primertext: text = "You're great"
+50.2717 	EXP 	prankText: autoDraw = True
+50.2717 	EXP 	slider: autoDraw = True
+50.2717 	EXP 	primertext: autoDraw = True
+50.2813 	EXP 	primertext: autoDraw = False
+50.2937 	EXP 	promptText: autoDraw = True
+50.2937 	EXP 	hiddenobserver: autoDraw = True
+50.3162 	DATA 	Mouse: Left button down, pos=(1483,219)
+50.3281 	EXP 	slider: markerPos = 7.889814734458923
+50.3414 	EXP 	slider: markerPos = 7.889814734458923
+50.3545 	EXP 	slider: markerPos = 7.889814734458923
+50.3677 	EXP 	slider: markerPos = 7.889814734458923
+50.3786 	DATA 	Mouse:  Left button up, pos=(1483,219)
+50.3814 	EXP 	slider: markerPos = 7.889814734458923
+50.3945 	EXP 	slider: markerPos = 8.0
+50.3971 	EXP 	New trial (rep=3, index=0): None
+50.4031 	EXP 	prankText: autoDraw = False
+50.4031 	EXP 	promptText: autoDraw = False
+50.4031 	EXP 	hiddenobserver: autoDraw = False
+50.4031 	EXP 	slider: autoDraw = False
+50.4031 	EXP 	primertext: autoDraw = False
+50.4031 	EXP 	text: height = 0.1
+50.4031 	EXP 	text: height = 0.1
+50.4031 	EXP 	text: height = 0.1
+50.4031 	EXP 	text: text = 'Prank 4'
+50.4031 	EXP 	text: autoDraw = True
+50.4618 	DATA 	Mouse: Left button down, pos=(1483,219)
+50.5246 	DATA 	Mouse:  Left button up, pos=(1483,219)
+52.4010 	EXP 	Created sequence: sequential, trialTypes=1, nReps=6, seed=None
+52.4012 	EXP 	New trial (rep=0, index=0): None
+52.4273 	EXP 	text: autoDraw = False
+52.4273 	EXP 	slider: markerPos = None
+52.4273 	EXP 	slider: markerPos = None
+52.4273 	EXP 	primertext: text = "You're great"
+52.4273 	EXP 	prankText: autoDraw = True
+52.4273 	EXP 	slider: autoDraw = True
+52.4273 	EXP 	primertext: autoDraw = True
+52.4374 	EXP 	primertext: autoDraw = False
+52.4499 	EXP 	promptText: autoDraw = True
+52.4499 	EXP 	hiddenobserver: autoDraw = True
+52.6433 	DATA 	Mouse: Left button down, pos=(1484,219)
+52.6563 	EXP 	slider: markerPos = 7.8962962329387665
+52.6693 	EXP 	slider: markerPos = 7.8962962329387665
+52.6826 	EXP 	slider: markerPos = 7.8962962329387665
+52.6959 	EXP 	slider: markerPos = 7.8962962329387665
+52.7092 	EXP 	slider: markerPos = 7.8962962329387665
+52.7107 	DATA 	Mouse:  Left button up, pos=(1484,219)
+52.7223 	EXP 	slider: markerPos = 8.0
+52.7248 	EXP 	New trial (rep=1, index=0): None
+52.7404 	EXP 	prankText: autoDraw = False
+52.7404 	EXP 	promptText: autoDraw = False
+52.7404 	EXP 	hiddenobserver: autoDraw = False
+52.7404 	EXP 	slider: autoDraw = False
+52.7404 	EXP 	primertext: autoDraw = False
+52.7404 	EXP 	slider: markerPos = None
+52.7404 	EXP 	slider: markerPos = None
+52.7404 	EXP 	primertext: text = "You're great"
+52.7404 	EXP 	prankText: autoDraw = True
+52.7404 	EXP 	slider: autoDraw = True
+52.7404 	EXP 	primertext: autoDraw = True
+52.7502 	EXP 	primertext: autoDraw = False
+52.7630 	EXP 	promptText: autoDraw = True
+52.7630 	EXP 	hiddenobserver: autoDraw = True
+52.8238 	DATA 	Mouse: Left button down, pos=(1484,219)
+52.8403 	EXP 	slider: markerPos = 7.8962962329387665
+52.8535 	EXP 	slider: markerPos = 7.8962962329387665
+52.8637 	DATA 	Mouse:  Left button up, pos=(1484,219)
+52.8666 	EXP 	slider: markerPos = 7.8962962329387665
+52.8795 	EXP 	slider: markerPos = 8.0
+52.8817 	EXP 	New trial (rep=2, index=0): None
+52.8970 	EXP 	prankText: autoDraw = False
+52.8970 	EXP 	promptText: autoDraw = False
+52.8970 	EXP 	hiddenobserver: autoDraw = False
+52.8970 	EXP 	slider: autoDraw = False
+52.8970 	EXP 	primertext: autoDraw = False
+52.8970 	EXP 	slider: markerPos = None
+52.8970 	EXP 	slider: markerPos = None
+52.8970 	EXP 	primertext: text = "You're great"
+52.8970 	EXP 	prankText: autoDraw = True
+52.8970 	EXP 	slider: autoDraw = True
+52.8970 	EXP 	primertext: autoDraw = True
+52.9070 	EXP 	primertext: autoDraw = False
+52.9195 	EXP 	promptText: autoDraw = True
+52.9195 	EXP 	hiddenobserver: autoDraw = True
+52.9527 	DATA 	Mouse: Left button down, pos=(1484,219)
+52.9654 	EXP 	slider: markerPos = 7.8962962329387665
+52.9789 	EXP 	slider: markerPos = 7.8962962329387665
+52.9918 	EXP 	slider: markerPos = 7.8962962329387665
+53.0050 	EXP 	slider: markerPos = 7.8962962329387665
+53.0065 	DATA 	Mouse:  Left button up, pos=(1484,219)
+53.0182 	EXP 	slider: markerPos = 8.0
+53.0204 	EXP 	New trial (rep=3, index=0): None
+53.0356 	EXP 	prankText: autoDraw = False
+53.0356 	EXP 	promptText: autoDraw = False
+53.0356 	EXP 	hiddenobserver: autoDraw = False
+53.0356 	EXP 	slider: autoDraw = False
+53.0356 	EXP 	primertext: autoDraw = False
+53.0356 	EXP 	slider: markerPos = None
+53.0356 	EXP 	slider: markerPos = None
+53.0356 	EXP 	primertext: text = "You're great"
+53.0356 	EXP 	prankText: autoDraw = True
+53.0356 	EXP 	slider: autoDraw = True
+53.0356 	EXP 	primertext: autoDraw = True
+53.0452 	EXP 	primertext: autoDraw = False
+53.0579 	EXP 	promptText: autoDraw = True
+53.0579 	EXP 	hiddenobserver: autoDraw = True
+53.0975 	DATA 	Mouse: Left button down, pos=(1484,219)
+53.1140 	EXP 	slider: markerPos = 7.8962962329387665
+53.1272 	EXP 	slider: markerPos = 7.8962962329387665
+53.1405 	EXP 	slider: markerPos = 7.8962962329387665
+53.1506 	DATA 	Mouse:  Left button up, pos=(1484,219)
+53.1535 	EXP 	slider: markerPos = 7.8962962329387665
+53.1666 	EXP 	slider: markerPos = 8.0
+53.1688 	EXP 	New trial (rep=4, index=0): None
+53.1840 	EXP 	prankText: autoDraw = False
+53.1840 	EXP 	promptText: autoDraw = False
+53.1840 	EXP 	hiddenobserver: autoDraw = False
+53.1840 	EXP 	slider: autoDraw = False
+53.1840 	EXP 	primertext: autoDraw = False
+53.1840 	EXP 	slider: markerPos = None
+53.1840 	EXP 	slider: markerPos = None
+53.1840 	EXP 	primertext: text = "You're great"
+53.1840 	EXP 	prankText: autoDraw = True
+53.1840 	EXP 	slider: autoDraw = True
+53.1840 	EXP 	primertext: autoDraw = True
+53.1937 	EXP 	primertext: autoDraw = False
+53.2069 	EXP 	promptText: autoDraw = True
+53.2069 	EXP 	hiddenobserver: autoDraw = True
+53.2401 	DATA 	Mouse: Left button down, pos=(1484,219)
+53.2521 	EXP 	slider: markerPos = 7.8962962329387665
+53.2650 	EXP 	slider: markerPos = 7.8962962329387665
+53.2781 	EXP 	slider: markerPos = 7.8962962329387665
+53.2913 	EXP 	slider: markerPos = 7.8962962329387665
+53.2927 	DATA 	Mouse:  Left button up, pos=(1484,219)
+53.3044 	EXP 	slider: markerPos = 8.0
+53.3067 	EXP 	New trial (rep=5, index=0): None
+53.3220 	EXP 	prankText: autoDraw = False
+53.3220 	EXP 	promptText: autoDraw = False
+53.3220 	EXP 	hiddenobserver: autoDraw = False
+53.3220 	EXP 	slider: autoDraw = False
+53.3220 	EXP 	primertext: autoDraw = False
+53.3220 	EXP 	slider: markerPos = None
+53.3220 	EXP 	slider: markerPos = None
+53.3220 	EXP 	primertext: text = "You're great"
+53.3220 	EXP 	prankText: autoDraw = True
+53.3220 	EXP 	slider: autoDraw = True
+53.3220 	EXP 	primertext: autoDraw = True
+53.3320 	EXP 	primertext: autoDraw = False
+53.3447 	EXP 	promptText: autoDraw = True
+53.3447 	EXP 	hiddenobserver: autoDraw = True
+53.3741 	DATA 	Mouse: Left button down, pos=(1484,219)
+53.3899 	EXP 	slider: markerPos = 7.8962962329387665
+53.4030 	EXP 	slider: markerPos = 7.8962962329387665
+53.4160 	EXP 	slider: markerPos = 7.8962962329387665
+53.4295 	EXP 	slider: markerPos = 7.8962962329387665
+53.4396 	DATA 	Mouse:  Left button up, pos=(1484,219)
+53.4426 	EXP 	slider: markerPos = 7.8962962329387665
+53.4555 	EXP 	slider: markerPos = 8.0
+53.4581 	EXP 	New trial (rep=4, index=0): None
+53.4645 	EXP 	prankText: autoDraw = False
+53.4645 	EXP 	promptText: autoDraw = False
+53.4645 	EXP 	hiddenobserver: autoDraw = False
+53.4645 	EXP 	slider: autoDraw = False
+53.4645 	EXP 	primertext: autoDraw = False
+53.4645 	EXP 	text: height = 0.1
+53.4645 	EXP 	text: height = 0.1
+53.4645 	EXP 	text: height = 0.1
+53.4645 	EXP 	text: text = 'Prank 5'
+53.4645 	EXP 	text: autoDraw = True
+53.5153 	DATA 	Mouse: Left button down, pos=(1484,219)
+53.5786 	DATA 	Mouse:  Left button up, pos=(1485,219)
+53.6554 	DATA 	Mouse: Left button down, pos=(1485,219)
+53.7110 	DATA 	Mouse:  Left button up, pos=(1485,219)
+55.4621 	EXP 	Created sequence: sequential, trialTypes=1, nReps=6, seed=None
+55.4622 	EXP 	New trial (rep=0, index=0): None
+55.4883 	EXP 	text: autoDraw = False
+55.4883 	EXP 	slider: markerPos = None
+55.4883 	EXP 	slider: markerPos = None
+55.4883 	EXP 	primertext: text = "You're great"
+55.4883 	EXP 	prankText: autoDraw = True
+55.4883 	EXP 	slider: autoDraw = True
+55.4883 	EXP 	primertext: autoDraw = True
+55.4984 	EXP 	primertext: autoDraw = False
+55.5110 	EXP 	promptText: autoDraw = True
+55.5110 	EXP 	hiddenobserver: autoDraw = True
+55.8223 	DATA 	Mouse: Left button down, pos=(1485,219)
+55.8345 	EXP 	slider: markerPos = 7.90277773141861
+55.8477 	EXP 	slider: markerPos = 7.90277773141861
+55.8609 	EXP 	slider: markerPos = 7.90277773141861
+55.8743 	EXP 	slider: markerPos = 7.90277773141861
+55.8875 	EXP 	slider: markerPos = 7.90277773141861
+55.8890 	DATA 	Mouse:  Left button up, pos=(1485,219)
+55.9005 	EXP 	slider: markerPos = 8.0
+55.9029 	EXP 	New trial (rep=1, index=0): None
+55.9182 	EXP 	prankText: autoDraw = False
+55.9182 	EXP 	promptText: autoDraw = False
+55.9182 	EXP 	hiddenobserver: autoDraw = False
+55.9182 	EXP 	slider: autoDraw = False
+55.9182 	EXP 	primertext: autoDraw = False
+55.9182 	EXP 	slider: markerPos = None
+55.9182 	EXP 	slider: markerPos = None
+55.9182 	EXP 	primertext: text = "You're great"
+55.9182 	EXP 	prankText: autoDraw = True
+55.9182 	EXP 	slider: autoDraw = True
+55.9182 	EXP 	primertext: autoDraw = True
+55.9282 	EXP 	primertext: autoDraw = False
+55.9410 	EXP 	promptText: autoDraw = True
+55.9410 	EXP 	hiddenobserver: autoDraw = True
+55.9705 	DATA 	Mouse: Left button down, pos=(1485,219)
+55.9862 	EXP 	slider: markerPos = 7.90277773141861
+55.9996 	EXP 	slider: markerPos = 7.90277773141861
+56.0135 	EXP 	slider: markerPos = 7.90277773141861
+56.0282 	EXP 	slider: markerPos = 7.90277773141861
+56.0419 	EXP 	slider: markerPos = 7.90277773141861
+56.0434 	DATA 	Mouse:  Left button up, pos=(1485,219)
+56.0550 	EXP 	slider: markerPos = 8.0
+56.0572 	EXP 	New trial (rep=2, index=0): None
+56.0724 	EXP 	prankText: autoDraw = False
+56.0724 	EXP 	promptText: autoDraw = False
+56.0724 	EXP 	hiddenobserver: autoDraw = False
+56.0724 	EXP 	slider: autoDraw = False
+56.0724 	EXP 	primertext: autoDraw = False
+56.0724 	EXP 	slider: markerPos = None
+56.0724 	EXP 	slider: markerPos = None
+56.0724 	EXP 	primertext: text = "You're great"
+56.0724 	EXP 	prankText: autoDraw = True
+56.0724 	EXP 	slider: autoDraw = True
+56.0724 	EXP 	primertext: autoDraw = True
+56.0825 	EXP 	primertext: autoDraw = False
+56.0950 	EXP 	promptText: autoDraw = True
+56.0950 	EXP 	hiddenobserver: autoDraw = True
+56.1244 	DATA 	Mouse: Left button down, pos=(1485,219)
+56.1403 	EXP 	slider: markerPos = 7.90277773141861
+56.1534 	EXP 	slider: markerPos = 7.90277773141861
+56.1663 	EXP 	slider: markerPos = 7.90277773141861
+56.1795 	EXP 	slider: markerPos = 7.90277773141861
+56.1897 	DATA 	Mouse:  Left button up, pos=(1485,219)
+56.1927 	EXP 	slider: markerPos = 7.90277773141861
+56.2056 	EXP 	slider: markerPos = 8.0
+56.2079 	EXP 	New trial (rep=3, index=0): None
+56.2232 	EXP 	prankText: autoDraw = False
+56.2232 	EXP 	promptText: autoDraw = False
+56.2232 	EXP 	hiddenobserver: autoDraw = False
+56.2232 	EXP 	slider: autoDraw = False
+56.2232 	EXP 	primertext: autoDraw = False
+56.2232 	EXP 	slider: markerPos = None
+56.2232 	EXP 	slider: markerPos = None
+56.2232 	EXP 	primertext: text = "You're great"
+56.2232 	EXP 	prankText: autoDraw = True
+56.2232 	EXP 	slider: autoDraw = True
+56.2232 	EXP 	primertext: autoDraw = True
+56.2332 	EXP 	primertext: autoDraw = False
+56.2459 	EXP 	promptText: autoDraw = True
+56.2459 	EXP 	hiddenobserver: autoDraw = True
+56.2792 	DATA 	Mouse: Left button down, pos=(1485,219)
+56.2912 	EXP 	slider: markerPos = 7.90277773141861
+56.3044 	EXP 	slider: markerPos = 7.90277773141861
+56.3172 	EXP 	slider: markerPos = 7.90277773141861
+56.3305 	EXP 	slider: markerPos = 7.90277773141861
+56.3407 	DATA 	Mouse:  Left button up, pos=(1485,219)
+56.3436 	EXP 	slider: markerPos = 7.90277773141861
+56.3567 	EXP 	slider: markerPos = 8.0
+56.3590 	EXP 	New trial (rep=4, index=0): None
+56.3743 	EXP 	prankText: autoDraw = False
+56.3743 	EXP 	promptText: autoDraw = False
+56.3743 	EXP 	hiddenobserver: autoDraw = False
+56.3743 	EXP 	slider: autoDraw = False
+56.3743 	EXP 	primertext: autoDraw = False
+56.3743 	EXP 	slider: markerPos = None
+56.3743 	EXP 	slider: markerPos = None
+56.3743 	EXP 	primertext: text = "You're great"
+56.3743 	EXP 	prankText: autoDraw = True
+56.3743 	EXP 	slider: autoDraw = True
+56.3743 	EXP 	primertext: autoDraw = True
+56.3844 	EXP 	primertext: autoDraw = False
+56.3979 	EXP 	promptText: autoDraw = True
+56.3979 	EXP 	hiddenobserver: autoDraw = True
+56.4315 	DATA 	Mouse: Left button down, pos=(1483,219)
+56.4445 	EXP 	slider: markerPos = 7.889814734458923
+56.4584 	EXP 	slider: markerPos = 7.889814734458923
+56.4715 	EXP 	slider: markerPos = 7.889814734458923
+56.4850 	EXP 	slider: markerPos = 7.889814734458923
+56.4952 	DATA 	Mouse:  Left button up, pos=(1483,219)
+56.4981 	EXP 	slider: markerPos = 7.889814734458923
+56.5112 	EXP 	slider: markerPos = 8.0
+56.5135 	EXP 	New trial (rep=5, index=0): None
+56.5287 	EXP 	prankText: autoDraw = False
+56.5287 	EXP 	promptText: autoDraw = False
+56.5287 	EXP 	hiddenobserver: autoDraw = False
+56.5287 	EXP 	slider: autoDraw = False
+56.5287 	EXP 	primertext: autoDraw = False
+56.5287 	EXP 	slider: markerPos = None
+56.5287 	EXP 	slider: markerPos = None
+56.5287 	EXP 	primertext: text = "You're great"
+56.5287 	EXP 	prankText: autoDraw = True
+56.5287 	EXP 	slider: autoDraw = True
+56.5287 	EXP 	primertext: autoDraw = True
+56.5393 	EXP 	primertext: autoDraw = False
+56.5526 	EXP 	promptText: autoDraw = True
+56.5526 	EXP 	hiddenobserver: autoDraw = True
+56.5823 	DATA 	Mouse: Left button down, pos=(1483,219)
+56.5982 	EXP 	slider: markerPos = 7.889814734458923
+56.6116 	EXP 	slider: markerPos = 7.889814734458923
+56.6246 	EXP 	slider: markerPos = 7.889814734458923
+56.6381 	EXP 	slider: markerPos = 7.889814734458923
+56.6484 	DATA 	Mouse:  Left button up, pos=(1483,219)
+56.6513 	EXP 	slider: markerPos = 7.889814734458923
+56.6643 	EXP 	slider: markerPos = 8.0
+56.7525 	DATA 	Mouse: Left button down, pos=(1483,219)
+56.8164 	DATA 	Mouse:  Left button up, pos=(1483,219)
+56.8204 	EXP 	prankText: autoDraw = False
+56.8204 	EXP 	promptText: autoDraw = False
+56.8204 	EXP 	hiddenobserver: autoDraw = False
+56.8204 	EXP 	slider: autoDraw = False
+56.8204 	EXP 	primertext: autoDraw = False
+56.8204 	EXP 	respectform: autoDraw = True
+56.9033 	DATA 	Mouse: Left button down, pos=(1483,219)
+56.9656 	DATA 	Mouse:  Left button up, pos=(1483,219)
+59.0666 	DATA 	Mouse: Left button down, pos=(1355,419)
+59.1001 	DATA 	Mouse:  Left button up, pos=(1355,418)
+60.1876 	DATA 	Mouse: Left button down, pos=(1188,405)
+60.2803 	DATA 	Mouse:  Left button up, pos=(1188,405)
+60.3659 	DATA 	Mouse: Left button down, pos=(1188,405)
+60.4291 	DATA 	Mouse:  Left button up, pos=(1188,405)
+60.9632 	DATA 	Mouse: wheel shift=(0,-1), pos=(1288,339)
+61.0266 	DATA 	Mouse: wheel shift=(0,-1), pos=(1288,339)
+61.0830 	DATA 	Mouse: wheel shift=(0,-1), pos=(1292,335)
+61.1808 	DATA 	Mouse: wheel shift=(0,-1), pos=(1293,335)
+62.5334 	DATA 	Mouse: Left button down, pos=(1185,581)
+62.5900 	DATA 	Mouse:  Left button up, pos=(1185,581)
+63.4429 	DATA 	Mouse: Left button down, pos=(1273,578)
+63.5303 	DATA 	Mouse:  Left button up, pos=(1273,578)
+64.5943 	DATA 	Mouse: Left button down, pos=(1021,582)
+64.6586 	DATA 	Mouse:  Left button up, pos=(1021,582)
+65.8027 	DATA 	Mouse: Left button down, pos=(1015,585)
+65.8942 	DATA 	Mouse:  Left button up, pos=(1015,585)
+66.5380 	DATA 	Mouse: Left button down, pos=(1020,578)
+66.6314 	DATA 	Mouse:  Left button up, pos=(1020,578)
+66.6583 	DATA 	Mouse: Left button down, pos=(1020,578)
+66.7176 	DATA 	Mouse:  Left button up, pos=(1020,578)
+66.9311 	DATA 	Mouse: Left button down, pos=(1020,578)
+66.9880 	DATA 	Mouse:  Left button up, pos=(1020,578)
+67.4754 	DATA 	Mouse: wheel shift=(0,-1), pos=(1165,487)
+67.5399 	DATA 	Mouse: wheel shift=(0,-2), pos=(1167,486)
+67.5498 	DATA 	Mouse: wheel shift=(0,-1), pos=(1168,484)
+67.5737 	DATA 	Mouse: wheel shift=(0,-1), pos=(1169,483)
+67.6330 	DATA 	Mouse: wheel shift=(0,-1), pos=(1175,477)
+67.9295 	DATA 	Mouse: wheel shift=(0,-1), pos=(1217,439)
+67.9893 	DATA 	Mouse: wheel shift=(0,-2), pos=(1220,430)
+68.0372 	DATA 	Mouse: wheel shift=(0,-2), pos=(1223,425)
+68.0403 	DATA 	Mouse: wheel shift=(0,-1), pos=(1224,424)
+68.4380 	DATA 	Mouse: wheel shift=(0,-1), pos=(1226,368)
+68.7266 	DATA 	Mouse: wheel shift=(0,1), pos=(1215,339)
+68.7520 	DATA 	Mouse: wheel shift=(0,1), pos=(1213,326)
+68.7814 	DATA 	Mouse: wheel shift=(0,2), pos=(1212,312)
+68.8108 	DATA 	Mouse: wheel shift=(0,1), pos=(1211,299)
+68.8401 	DATA 	Mouse: wheel shift=(0,1), pos=(1210,295)
+68.8987 	DATA 	Mouse: wheel shift=(0,1), pos=(1210,295)
+69.1513 	DATA 	Mouse: wheel shift=(0,1), pos=(1210,295)
+69.1805 	DATA 	Mouse: wheel shift=(0,3), pos=(1210,295)
+69.2276 	DATA 	Mouse: wheel shift=(0,2), pos=(1210,295)
+69.3828 	DATA 	Mouse: wheel shift=(0,-1), pos=(1210,295)
+69.3861 	DATA 	Mouse: wheel shift=(0,-1), pos=(1210,295)
+69.4098 	DATA 	Mouse: wheel shift=(0,-2), pos=(1210,295)
+69.4392 	DATA 	Mouse: wheel shift=(0,-2), pos=(1210,295)
+69.4686 	DATA 	Mouse: wheel shift=(0,-1), pos=(1210,295)
+69.5445 	DATA 	Mouse: wheel shift=(0,1), pos=(1210,297)
+69.7067 	DATA 	Mouse: wheel shift=(0,-3), pos=(1211,297)
+69.7327 	DATA 	Mouse: wheel shift=(0,-2), pos=(1211,297)
+69.7618 	DATA 	Mouse: wheel shift=(0,-2), pos=(1211,297)
+69.7911 	DATA 	Mouse: wheel shift=(0,-1), pos=(1211,298)
+69.9902 	DATA 	Mouse: wheel shift=(0,-1), pos=(1213,300)
+70.0190 	DATA 	Mouse: wheel shift=(0,-2), pos=(1213,300)
+70.0493 	DATA 	Mouse: wheel shift=(0,-4), pos=(1213,300)
+70.3191 	DATA 	Mouse: wheel shift=(0,-3), pos=(1213,300)
+70.3479 	DATA 	Mouse: wheel shift=(0,-3), pos=(1213,300)
+70.3770 	DATA 	Mouse: wheel shift=(0,-2), pos=(1213,300)
+70.3886 	DATA 	Mouse: wheel shift=(0,-1), pos=(1213,300)
+70.6912 	DATA 	Mouse: wheel shift=(0,-3), pos=(1213,300)
+70.7030 	DATA 	Mouse: wheel shift=(0,-1), pos=(1213,300)
+70.7060 	DATA 	Mouse: wheel shift=(0,-1), pos=(1213,300)
+70.7614 	DATA 	Mouse: wheel shift=(0,-3), pos=(1213,300)
+71.0054 	DATA 	Mouse: wheel shift=(0,-1), pos=(1213,300)
+71.0172 	DATA 	Mouse: wheel shift=(0,-1), pos=(1213,300)
+71.0198 	DATA 	Mouse: wheel shift=(0,-1), pos=(1213,300)
+71.0757 	DATA 	Mouse: wheel shift=(0,-4), pos=(1213,300)
+72.0175 	DATA 	Keypress: escape
+72.7686 	EXP 	window1: mouseVisible = True

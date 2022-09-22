@@ -1,0 +1,8 @@
+index,itemText,type,options,ticks,tickLabels,layout,itemColor,itemWidth,responseColor,responseWidth,granularity,font
+,Post-debriefing Consent Form,heading,,,,,,,,,,
+,Project Title: It's All Fun and Pranks,description,,,,,,,,,,
+,"Faculty Investigator: Dr. Chris Burris, Psychology (St. Jerome's). 519-884-8111x28213 (cburris@uwaterloo.ca)",description,,,,,,,,,,
+,"Student Investigator: Maya Karmakar-Johnson, Psychology (mkarmaka@uwaterloo.ca)",description,,,,,,,,,,
+,"In the online debriefing, I was given an explanation as to why it was necessary for the researchers to withhold some information regarding some elements of this study. I was informed that having full information about the actual purpose of the study might have influenced the way in which I responded to the tasks and this would have invalidated the results. I have now received a complete written explanation as to the actual purpose and procedures of the study. In addition, I have had an opportunity to ask any questions about this and to receive acceptable answers to my questions. I am aware that my decision to give or withhold permission to use my data will not affect my receipt of the applicable research credit.",description,,,,,,,,,,
+,"I am aware that I may contact the Office of Research Ethics, at 1-519-888-4567 ext. 36005 or reb@uwaterloo.ca if I have any concerns or comments resulting from my involvement in this study.",description,,,,,,,,,,
+,I give my permission for the researchers to use my data and/or the information I provided through the online survey for this study.,choice,"Yes,No",,,,,,,,,

@@ -1,0 +1,10 @@
+index,itemText,type,options,ticks,tickLabels,layout,itemColor,itemWidth,responseColor,responseWidth,granularity,font
+,Background Information,heading,,,,,,,,,,
+,Please complete the following information so that we can summarize the background characteristics of this study’s participants as part of any subsequent research reports. Your identity is confidential. Remember that you may decline to answer any question by leaving it blank if you choose,description,,,,,,,,,,
+1,Your gender?,choice,"Female,Male,Trans,Non-binary,Other",,,horiz,,,,,,
+2,Gender (if other),free text,,,,horiz,,,,,,
+3,Your Age,choice,"18-21,22-24,25-27,28 or Older",,,horiz,,,,,,
+4,Your Ethnicity (ie. the ethnic group or nationality with which you most strongly identify)?,free text,,,,horiz,,,,,,
+5,Were you born in Canada,choice,"Yes,No",,,horiz,,,,,,
+6,"If you are now living in Canada, but were not born here, how long have you lived here?",free text,,,,horiz,,,,,,
+7,"Finally, we would like you to write a couple of sentences about something you've done or accomplished recently that you feel really good about:",free text,,,,horiz,,,,,,
