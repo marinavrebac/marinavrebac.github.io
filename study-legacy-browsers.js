@@ -320,7 +320,7 @@ async function experimentInit() {
     text: '',
     font: 'Open Sans',
     units: undefined, 
-    pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    pos: [0, 0], height: 0.15,  wrapWidth: undefined, ori: 0.0,
     color: new util.Color([1.0, 1.0, 1.0]),  opacity: undefined,
     depth: 0.0 
   });

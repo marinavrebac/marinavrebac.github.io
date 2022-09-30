@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.1.4),
-    on September 19, 2022, at 16:04
+    on September 30, 2022, at 18:12
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -114,37 +114,9 @@ randomInt = randint(1,4)
 primer = "error primer"
 prankIndex = 0
 promptIndex = 0
-buttonTEST = visual.ButtonStim(win, 
-    text='Click here', font='Arvo',
-    pos=(1, 0),
-    letterHeight=0.05,
-    size=None, borderWidth=0.0,
-    fillColor='darkgrey', borderColor=None,
-    color='white', colorSpace='rgb',
-    opacity=None,
-    bold=True, italic=False,
-    padding=None,
-    anchor='bottom-right',
-    name='buttonTEST'
-)
-buttonTEST.buttonClock = core.Clock()
 
 # Initialize components for Routine "informationletter"
 informationletterClock = core.Clock()
-infoLetterContinue = visual.ButtonStim(win, 
-    text='Continue', font='Arvo',
-    pos=(0.95, -0.95),units='norm',
-    letterHeight=0.05,
-    size=(0.15, 0.1), borderWidth=0.1,
-    fillColor='darkgrey', borderColor=[-1.0000, -1.0000, -1.0000],
-    color='white', colorSpace='rgb',
-    opacity=1.0,
-    bold=True, italic=False,
-    padding=None,
-    anchor='bottom-right',
-    name='infoLetterContinue'
-)
-infoLetterContinue.buttonClock = core.Clock()
 win.allowStencil = True
 infoletter = visual.Form(win=win, name='infoletter',
     items='informationletter.csv',
@@ -154,27 +126,21 @@ infoletter = visual.Form(win=win, name='infoletter',
     style='dark',
     fillColor=None, borderColor=None, itemColor='white', 
     responseColor='white', markerColor='red', colorSpace='rgb', 
-    size=(1, 0.8),
+    size=(1.5, 0.8),
     pos=(0, 0),
     itemPadding=0.05
 )
+infoContinuePrompt = visual.TextStim(win=win, name='infoContinuePrompt',
+    text='Press Space to Submit and Continue',
+    font='Open Sans',
+    pos=(0, -0.45), height=0.03, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-1.0);
+infoKey = keyboard.Keyboard()
 
 # Initialize components for Routine "consent"
 consentClock = core.Clock()
-consentBtn = visual.ButtonStim(win, 
-    text='Continue', font='Arvo',
-    pos=(0.95, -0.95),units='norm',
-    letterHeight=0.05,
-    size=(0.15, 0.1), borderWidth=0.0,
-    fillColor='darkgrey', borderColor=None,
-    color='white', colorSpace='rgb',
-    opacity=None,
-    bold=True, italic=False,
-    padding=None,
-    anchor='bottom-right',
-    name='consentBtn'
-)
-consentBtn.buttonClock = core.Clock()
 win.allowStencil = True
 consentform = visual.Form(win=win, name='consentform',
     items='consentform.csv',
@@ -184,27 +150,21 @@ consentform = visual.Form(win=win, name='consentform',
     style='dark',
     fillColor=None, borderColor=None, itemColor='white', 
     responseColor='white', markerColor='red', colorSpace='rgb', 
-    size=(1, 0.8),
+    size=(1.5, 0.8),
     pos=(0, 0),
     itemPadding=0.05
 )
+consentContinuePrompt = visual.TextStim(win=win, name='consentContinuePrompt',
+    text='Press Space to Submit and Continue',
+    font='Open Sans',
+    pos=(0, -0.45), height=0.03, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-1.0);
+consentKey = keyboard.Keyboard()
 
 # Initialize components for Routine "instructions"
 instructionsClock = core.Clock()
-instructionsBtn = visual.ButtonStim(win, 
-    text='Continue', font='Arvo',
-    pos=(0.95, -0.95),units='norm',
-    letterHeight=0.05,
-    size=(0.15, 0.1), borderWidth=0.0,
-    fillColor='darkgrey', borderColor=None,
-    color='white', colorSpace='rgb',
-    opacity=None,
-    bold=True, italic=False,
-    padding=None,
-    anchor='bottom-right',
-    name='instructionsBtn'
-)
-instructionsBtn.buttonClock = core.Clock()
 win.allowStencil = True
 instructionsform = visual.Form(win=win, name='instructionsform',
     items='HO.csv',
@@ -214,10 +174,18 @@ instructionsform = visual.Form(win=win, name='instructionsform',
     style='dark',
     fillColor=None, borderColor=None, itemColor='white', 
     responseColor='white', markerColor='red', colorSpace='rgb', 
-    size=(1, 0.8),
+    size=(1.5, 0.8),
     pos=(0, 0),
     itemPadding=0.05
 )
+instructContinuePrompt = visual.TextStim(win=win, name='instructContinuePrompt',
+    text='Press Space to Submit and Continue',
+    font='Open Sans',
+    pos=(0, -0.45), height=0.03, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-1.0);
+instructKey = keyboard.Keyboard()
 
 # Initialize components for Routine "number"
 numberClock = core.Clock()
@@ -262,10 +230,18 @@ slider = visual.Slider(win=win, name='slider',
 primertext = visual.TextStim(win=win, name='primertext',
     text='',
     font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color=[0.2098, 0.2098, 0.2059], colorSpace='rgb', opacity=None, 
+    pos=(0, 0), height=0.15, wrapWidth=None, ori=0.0, 
+    color=[1.0000, 1.0000, 1.0000], colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=-4.0);
+answerContinuePrompt = visual.TextStim(win=win, name='answerContinuePrompt',
+    text='Press Space to Submit and Continue',
+    font='Open Sans',
+    pos=(0, -0.4), height=0.03, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-5.0);
+answerKey = keyboard.Keyboard()
 
 # Initialize components for Routine "incrementPrompt"
 incrementPromptClock = core.Clock()
@@ -277,61 +253,49 @@ incrementPrankClock = core.Clock()
 respectroutineClock = core.Clock()
 win.allowStencil = True
 respectform = visual.Form(win=win, name='respectform',
-    items='aboutrespect_part1.csv',
+    items='aboutrespect.csv',
     textHeight=0.03,
     font='Open Sans',
     randomize=False,
     style='dark',
     fillColor=None, borderColor=None, itemColor='white', 
     responseColor='white', markerColor='red', colorSpace='rgb', 
-    size=(1, 0.8),
+    size=(1.5, 0.8),
     pos=(0, 0),
     itemPadding=0.05
 )
-contBtnRespect = visual.ButtonStim(win, 
-    text='Continue', font='Arvo',
-    pos=(0.95, -0.95),units='norm',
-    letterHeight=0.05,
-    size=(0.15, 0.1), borderWidth=0.0,
-    fillColor='darkgrey', borderColor=None,
-    color='white', colorSpace='rgb',
-    opacity=None,
-    bold=True, italic=False,
-    padding=None,
-    anchor='bottom-right',
-    name='contBtnRespect'
-)
-contBtnRespect.buttonClock = core.Clock()
+respectContinuePrompt = visual.TextStim(win=win, name='respectContinuePrompt',
+    text='Press Space to Submit and Continue',
+    font='Open Sans',
+    pos=(0, -0.45), height=0.03, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-1.0);
+respectKey = keyboard.Keyboard()
 
 # Initialize components for Routine "angerroutine"
 angerroutineClock = core.Clock()
-contBtnAnger = visual.ButtonStim(win, 
-    text='Continue', font='Arvo',
-    pos=(0.95, -0.95),units='norm',
-    letterHeight=0.05,
-    size=(0.15, 0.1), borderWidth=0.0,
-    fillColor='darkgrey', borderColor=None,
-    color='white', colorSpace='rgb',
-    opacity=None,
-    bold=True, italic=False,
-    padding=None,
-    anchor='bottom-right',
-    name='contBtnAnger'
-)
-contBtnAnger.buttonClock = core.Clock()
 win.allowStencil = True
 angerform = visual.Form(win=win, name='angerform',
-    items='aboutanger - Sheet1.csv',
+    items='aboutanger.csv',
     textHeight=0.03,
     font='Open Sans',
     randomize=False,
     style='dark',
     fillColor=None, borderColor=None, itemColor='white', 
     responseColor='white', markerColor='red', colorSpace='rgb', 
-    size=(1, 0.8),
+    size=(1.5, 0.8),
     pos=(0, 0),
     itemPadding=0.05
 )
+angerContinuePrompt = visual.TextStim(win=win, name='angerContinuePrompt',
+    text='Press Space to Submit and Continue',
+    font='Open Sans',
+    pos=(0, -0.45), height=0.03, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-1.0);
+angerKey = keyboard.Keyboard()
 
 # Initialize components for Routine "demoroutine"
 demoroutineClock = core.Clock()
@@ -344,28 +308,22 @@ demoForm = visual.Form(win=win, name='demoForm',
     style='dark',
     fillColor=None, borderColor=None, itemColor='white', 
     responseColor='white', markerColor='red', colorSpace='rgb', 
-    size=(1, 0.8),
+    size=(1.5, 0.8),
     pos=(0, 0),
     itemPadding=0.05
 )
-contBtnDemo = visual.ButtonStim(win, 
-    text='Continue', font='Arvo',
-    pos=(0.95, -0.95),units='norm',
-    letterHeight=0.05,
-    size=(0.15, 0.1), borderWidth=0.0,
-    fillColor='darkgrey', borderColor=None,
-    color='white', colorSpace='rgb',
-    opacity=None,
-    bold=True, italic=False,
-    padding=None,
-    anchor='bottom-right',
-    name='contBtnDemo'
-)
-contBtnDemo.buttonClock = core.Clock()
+demoContinuePrompt = visual.TextStim(win=win, name='demoContinuePrompt',
+    text='Press Space to Submit and Continue',
+    font='Open Sans',
+    pos=(0, -0.45), height=0.03, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-1.0);
+demoKey = keyboard.Keyboard()
 
 # Initialize components for Routine "finish"
 finishClock = core.Clock()
-text_2 = visual.TextStim(win=win, name='text_2',
+completetext = visual.TextStim(win=win, name='completetext',
     text='Study Complete',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
@@ -375,20 +333,6 @@ text_2 = visual.TextStim(win=win, name='text_2',
 
 # Initialize components for Routine "feedback"
 feedbackClock = core.Clock()
-feedbackBtn = visual.ButtonStim(win, 
-    text='Continue', font='Arvo',
-    pos=(0.95, -0.95),units='norm',
-    letterHeight=0.05,
-    size=(0.15, 0.1), borderWidth=0.0,
-    fillColor='darkgrey', borderColor=None,
-    color='white', colorSpace='rgb',
-    opacity=None,
-    bold=True, italic=False,
-    padding=None,
-    anchor='bottom-right',
-    name='feedbackBtn'
-)
-feedbackBtn.buttonClock = core.Clock()
 win.allowStencil = True
 feedbackform = visual.Form(win=win, name='feedbackform',
     items='feedbackletter.csv',
@@ -402,23 +346,17 @@ feedbackform = visual.Form(win=win, name='feedbackform',
     pos=(0, 0),
     itemPadding=0.05
 )
+feedbackContinuePrompt = visual.TextStim(win=win, name='feedbackContinuePrompt',
+    text='Press Space to Submit and Continue',
+    font='Open Sans',
+    pos=(0, -0.45), height=0.03, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-1.0);
+feedbackKey = keyboard.Keyboard()
 
 # Initialize components for Routine "debrief"
 debriefClock = core.Clock()
-debriefBtn = visual.ButtonStim(win, 
-    text='Continue', font='Arvo',
-    pos=(0.95, -0.95),units='norm',
-    letterHeight=0.05,
-    size=(0.15, 0.1), borderWidth=0.0,
-    fillColor='darkgrey', borderColor=None,
-    color='white', colorSpace='rgb',
-    opacity=None,
-    bold=True, italic=False,
-    padding=None,
-    anchor='bottom-right',
-    name='debriefBtn'
-)
-debriefBtn.buttonClock = core.Clock()
 win.allowStencil = True
 debriefform = visual.Form(win=win, name='debriefform',
     items='debriefform.csv',
@@ -432,6 +370,14 @@ debriefform = visual.Form(win=win, name='debriefform',
     pos=(0, 0),
     itemPadding=0.05
 )
+debriefContinuePrompt = visual.TextStim(win=win, name='debriefContinuePrompt',
+    text='Press Space to Submit and Continue',
+    font='Open Sans',
+    pos=(0, -0.45), height=0.03, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-1.0);
+debriefKey = keyboard.Keyboard()
 
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
@@ -441,7 +387,7 @@ routineTimer = core.CountdownTimer()  # to track time remaining of each (non-sli
 continueRoutine = True
 # update component parameters for each repeat
 # keep track of which components have finished
-setupComponents = [buttonTEST]
+setupComponents = []
 for thisComponent in setupComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -463,31 +409,6 @@ while continueRoutine:
     tThisFlipGlobal = win.getFutureFlipTime(clock=None)
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
-    
-    # *buttonTEST* updates
-    if buttonTEST.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
-        # keep track of start time/frame for later
-        buttonTEST.frameNStart = frameN  # exact frame index
-        buttonTEST.tStart = t  # local t and not account for scr refresh
-        buttonTEST.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(buttonTEST, 'tStartRefresh')  # time at next scr refresh
-        buttonTEST.setAutoDraw(True)
-    if buttonTEST.status == STARTED:
-        # check whether buttonTEST has been pressed
-        if buttonTEST.isClicked:
-            if not buttonTEST.wasClicked:
-                buttonTEST.timesOn.append(buttonTEST.buttonClock.getTime()) # store time of first click
-                buttonTEST.timesOff.append(buttonTEST.buttonClock.getTime()) # store time clicked until
-            else:
-                buttonTEST.timesOff[-1] = buttonTEST.buttonClock.getTime() # update time clicked until
-            if not buttonTEST.wasClicked:
-                continueRoutine = False  # end routine when buttonTEST is clicked
-                None
-            buttonTEST.wasClicked = True  # if buttonTEST is still clicked next frame, it is not a new click
-        else:
-            buttonTEST.wasClicked = False  # if buttonTEST is clicked next frame, it is a new click
-    else:
-        buttonTEST.wasClicked = False  # if buttonTEST is clicked next frame, it is a new click
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -520,23 +441,17 @@ else:
     primer = "Error 2"
     
 thisExp.addData('study.primer', primer)
-thisExp.addData('buttonTEST.started', buttonTEST.tStartRefresh)
-thisExp.addData('buttonTEST.stopped', buttonTEST.tStopRefresh)
-thisExp.addData('buttonTEST.numClicks', buttonTEST.numClicks)
-if buttonTEST.numClicks:
-   thisExp.addData('buttonTEST.timesOn', buttonTEST.timesOn)
-   thisExp.addData('buttonTEST.timesOff', buttonTEST.timesOff)
-else:
-   thisExp.addData('buttonTEST.timesOn', "")
-   thisExp.addData('buttonTEST.timesOff', "")
 # the Routine "setup" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
 # ------Prepare to start Routine "informationletter"-------
 continueRoutine = True
 # update component parameters for each repeat
+infoKey.keys = []
+infoKey.rt = []
+_infoKey_allKeys = []
 # keep track of which components have finished
-informationletterComponents = [infoLetterContinue, infoletter]
+informationletterComponents = [infoletter, infoContinuePrompt, infoKey]
 for thisComponent in informationletterComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -559,31 +474,6 @@ while continueRoutine:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *infoLetterContinue* updates
-    if infoLetterContinue.status == NOT_STARTED and frameN >= 0:
-        # keep track of start time/frame for later
-        infoLetterContinue.frameNStart = frameN  # exact frame index
-        infoLetterContinue.tStart = t  # local t and not account for scr refresh
-        infoLetterContinue.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(infoLetterContinue, 'tStartRefresh')  # time at next scr refresh
-        infoLetterContinue.setAutoDraw(True)
-    if infoLetterContinue.status == STARTED:
-        # check whether infoLetterContinue has been pressed
-        if infoLetterContinue.isClicked:
-            if not infoLetterContinue.wasClicked:
-                infoLetterContinue.timesOn.append(infoLetterContinue.buttonClock.getTime()) # store time of first click
-                infoLetterContinue.timesOff.append(infoLetterContinue.buttonClock.getTime()) # store time clicked until
-            else:
-                infoLetterContinue.timesOff[-1] = infoLetterContinue.buttonClock.getTime() # update time clicked until
-            if not infoLetterContinue.wasClicked:
-                continueRoutine = False  # end routine when infoLetterContinue is clicked
-                None
-            infoLetterContinue.wasClicked = True  # if infoLetterContinue is still clicked next frame, it is not a new click
-        else:
-            infoLetterContinue.wasClicked = False  # if infoLetterContinue is clicked next frame, it is a new click
-    else:
-        infoLetterContinue.wasClicked = False  # if infoLetterContinue is clicked next frame, it is a new click
-    
     # *infoletter* updates
     if infoletter.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
@@ -592,6 +482,37 @@ while continueRoutine:
         infoletter.tStartRefresh = tThisFlipGlobal  # on global time
         win.timeOnFlip(infoletter, 'tStartRefresh')  # time at next scr refresh
         infoletter.setAutoDraw(True)
+    
+    # *infoContinuePrompt* updates
+    if infoContinuePrompt.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+        # keep track of start time/frame for later
+        infoContinuePrompt.frameNStart = frameN  # exact frame index
+        infoContinuePrompt.tStart = t  # local t and not account for scr refresh
+        infoContinuePrompt.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(infoContinuePrompt, 'tStartRefresh')  # time at next scr refresh
+        infoContinuePrompt.setAutoDraw(True)
+    
+    # *infoKey* updates
+    waitOnFlip = False
+    if infoKey.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+        # keep track of start time/frame for later
+        infoKey.frameNStart = frameN  # exact frame index
+        infoKey.tStart = t  # local t and not account for scr refresh
+        infoKey.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(infoKey, 'tStartRefresh')  # time at next scr refresh
+        infoKey.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(infoKey.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(infoKey.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if infoKey.status == STARTED and not waitOnFlip:
+        theseKeys = infoKey.getKeys(keyList=['space'], waitRelease=False)
+        _infoKey_allKeys.extend(theseKeys)
+        if len(_infoKey_allKeys):
+            infoKey.keys = _infoKey_allKeys[-1].name  # just the last key pressed
+            infoKey.rt = _infoKey_allKeys[-1].rt
+            # a response ends the routine
+            continueRoutine = False
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -622,8 +543,11 @@ routineTimer.reset()
 # ------Prepare to start Routine "consent"-------
 continueRoutine = True
 # update component parameters for each repeat
+consentKey.keys = []
+consentKey.rt = []
+_consentKey_allKeys = []
 # keep track of which components have finished
-consentComponents = [consentBtn, consentform]
+consentComponents = [consentform, consentContinuePrompt, consentKey]
 for thisComponent in consentComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -646,31 +570,6 @@ while continueRoutine:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *consentBtn* updates
-    if consentBtn.status == NOT_STARTED and consentform.complete:
-        # keep track of start time/frame for later
-        consentBtn.frameNStart = frameN  # exact frame index
-        consentBtn.tStart = t  # local t and not account for scr refresh
-        consentBtn.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(consentBtn, 'tStartRefresh')  # time at next scr refresh
-        consentBtn.setAutoDraw(True)
-    if consentBtn.status == STARTED:
-        # check whether consentBtn has been pressed
-        if consentBtn.isClicked:
-            if not consentBtn.wasClicked:
-                consentBtn.timesOn.append(consentBtn.buttonClock.getTime()) # store time of first click
-                consentBtn.timesOff.append(consentBtn.buttonClock.getTime()) # store time clicked until
-            else:
-                consentBtn.timesOff[-1] = consentBtn.buttonClock.getTime() # update time clicked until
-            if not consentBtn.wasClicked:
-                continueRoutine = False  # end routine when consentBtn is clicked
-                None
-            consentBtn.wasClicked = True  # if consentBtn is still clicked next frame, it is not a new click
-        else:
-            consentBtn.wasClicked = False  # if consentBtn is clicked next frame, it is a new click
-    else:
-        consentBtn.wasClicked = False  # if consentBtn is clicked next frame, it is a new click
-    
     # *consentform* updates
     if consentform.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
@@ -679,6 +578,37 @@ while continueRoutine:
         consentform.tStartRefresh = tThisFlipGlobal  # on global time
         win.timeOnFlip(consentform, 'tStartRefresh')  # time at next scr refresh
         consentform.setAutoDraw(True)
+    
+    # *consentContinuePrompt* updates
+    if consentContinuePrompt.status == NOT_STARTED and consentform.formComplete():
+        # keep track of start time/frame for later
+        consentContinuePrompt.frameNStart = frameN  # exact frame index
+        consentContinuePrompt.tStart = t  # local t and not account for scr refresh
+        consentContinuePrompt.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(consentContinuePrompt, 'tStartRefresh')  # time at next scr refresh
+        consentContinuePrompt.setAutoDraw(True)
+    
+    # *consentKey* updates
+    waitOnFlip = False
+    if consentKey.status == NOT_STARTED and consentform.formComplete():
+        # keep track of start time/frame for later
+        consentKey.frameNStart = frameN  # exact frame index
+        consentKey.tStart = t  # local t and not account for scr refresh
+        consentKey.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(consentKey, 'tStartRefresh')  # time at next scr refresh
+        consentKey.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(consentKey.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(consentKey.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if consentKey.status == STARTED and not waitOnFlip:
+        theseKeys = consentKey.getKeys(keyList=['space'], waitRelease=False)
+        _consentKey_allKeys.extend(theseKeys)
+        if len(_consentKey_allKeys):
+            consentKey.keys = _consentKey_allKeys[-1].name  # just the last key pressed
+            consentKey.rt = _consentKey_allKeys[-1].rt
+            # a response ends the routine
+            continueRoutine = False
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -701,8 +631,6 @@ while continueRoutine:
 for thisComponent in consentComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData('consentBtn.started', consentBtn.tStartRefresh)
-thisExp.addData('consentBtn.stopped', consentBtn.tStopRefresh)
 consentform.addDataToExp(thisExp, 'rows')
 consentform.autodraw = False
 # the Routine "consent" was not non-slip safe, so reset the non-slip timer
@@ -711,8 +639,11 @@ routineTimer.reset()
 # ------Prepare to start Routine "instructions"-------
 continueRoutine = True
 # update component parameters for each repeat
+instructKey.keys = []
+instructKey.rt = []
+_instructKey_allKeys = []
 # keep track of which components have finished
-instructionsComponents = [instructionsBtn, instructionsform]
+instructionsComponents = [instructionsform, instructContinuePrompt, instructKey]
 for thisComponent in instructionsComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -735,31 +666,6 @@ while continueRoutine:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *instructionsBtn* updates
-    if instructionsBtn.status == NOT_STARTED and tThisFlip >= 1-frameTolerance:
-        # keep track of start time/frame for later
-        instructionsBtn.frameNStart = frameN  # exact frame index
-        instructionsBtn.tStart = t  # local t and not account for scr refresh
-        instructionsBtn.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(instructionsBtn, 'tStartRefresh')  # time at next scr refresh
-        instructionsBtn.setAutoDraw(True)
-    if instructionsBtn.status == STARTED:
-        # check whether instructionsBtn has been pressed
-        if instructionsBtn.isClicked:
-            if not instructionsBtn.wasClicked:
-                instructionsBtn.timesOn.append(instructionsBtn.buttonClock.getTime()) # store time of first click
-                instructionsBtn.timesOff.append(instructionsBtn.buttonClock.getTime()) # store time clicked until
-            else:
-                instructionsBtn.timesOff[-1] = instructionsBtn.buttonClock.getTime() # update time clicked until
-            if not instructionsBtn.wasClicked:
-                continueRoutine = False  # end routine when instructionsBtn is clicked
-                None
-            instructionsBtn.wasClicked = True  # if instructionsBtn is still clicked next frame, it is not a new click
-        else:
-            instructionsBtn.wasClicked = False  # if instructionsBtn is clicked next frame, it is a new click
-    else:
-        instructionsBtn.wasClicked = False  # if instructionsBtn is clicked next frame, it is a new click
-    
     # *instructionsform* updates
     if instructionsform.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
@@ -768,6 +674,37 @@ while continueRoutine:
         instructionsform.tStartRefresh = tThisFlipGlobal  # on global time
         win.timeOnFlip(instructionsform, 'tStartRefresh')  # time at next scr refresh
         instructionsform.setAutoDraw(True)
+    
+    # *instructContinuePrompt* updates
+    if instructContinuePrompt.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+        # keep track of start time/frame for later
+        instructContinuePrompt.frameNStart = frameN  # exact frame index
+        instructContinuePrompt.tStart = t  # local t and not account for scr refresh
+        instructContinuePrompt.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(instructContinuePrompt, 'tStartRefresh')  # time at next scr refresh
+        instructContinuePrompt.setAutoDraw(True)
+    
+    # *instructKey* updates
+    waitOnFlip = False
+    if instructKey.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+        # keep track of start time/frame for later
+        instructKey.frameNStart = frameN  # exact frame index
+        instructKey.tStart = t  # local t and not account for scr refresh
+        instructKey.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(instructKey, 'tStartRefresh')  # time at next scr refresh
+        instructKey.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(instructKey.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(instructKey.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if instructKey.status == STARTED and not waitOnFlip:
+        theseKeys = instructKey.getKeys(keyList=['space'], waitRelease=False)
+        _instructKey_allKeys.extend(theseKeys)
+        if len(_instructKey_allKeys):
+            instructKey.keys = _instructKey_allKeys[-1].name  # just the last key pressed
+            instructKey.rt = _instructKey_allKeys[-1].rt
+            # a response ends the routine
+            continueRoutine = False
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -790,22 +727,13 @@ while continueRoutine:
 for thisComponent in instructionsComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData('instructionsBtn.started', instructionsBtn.tStartRefresh)
-thisExp.addData('instructionsBtn.stopped', instructionsBtn.tStopRefresh)
-thisExp.addData('instructionsBtn.numClicks', instructionsBtn.numClicks)
-if instructionsBtn.numClicks:
-   thisExp.addData('instructionsBtn.timesOn', instructionsBtn.timesOn)
-   thisExp.addData('instructionsBtn.timesOff', instructionsBtn.timesOff)
-else:
-   thisExp.addData('instructionsBtn.timesOn', "")
-   thisExp.addData('instructionsBtn.timesOff', "")
 instructionsform.addDataToExp(thisExp, 'rows')
 instructionsform.autodraw = False
 # the Routine "instructions" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
-pranksLoop = data.TrialHandler(nReps=len(pranks), method='sequential', 
+pranksLoop = data.TrialHandler(nReps=pranks.length, method='sequential', 
     extraInfo=expInfo, originPath=-1,
     trialList=[None],
     seed=None, name='pranksLoop')
@@ -892,7 +820,7 @@ for thisPranksLoop in pranksLoop:
             thisComponent.setAutoDraw(False)
     
     # set up handler to look after randomisation of conditions etc
-    promptLoop = data.TrialHandler(nReps=len(prompts), method='sequential', 
+    promptLoop = data.TrialHandler(nReps=prompts.length, method='sequential', 
         extraInfo=expInfo, originPath=-1,
         trialList=[None],
         seed=None, name='promptLoop')
@@ -920,8 +848,13 @@ for thisPranksLoop in pranksLoop:
         promptVar = prompts[promptIndex]
         thisExp.addData('prankVar.routineValue', '"' + prankVar)
         thisExp.addData('promptVar.routineValue', '"' + promptVar + '"')
+        
+        sliderAnswered = false
+        answerKey.keys = []
+        answerKey.rt = []
+        _answerKey_allKeys = []
         # keep track of which components have finished
-        answerComponents = [prankText, promptText, hiddenobserver, slider, primertext]
+        answerComponents = [prankText, promptText, hiddenobserver, slider, primertext, answerContinuePrompt, answerKey]
         for thisComponent in answerComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -984,10 +917,6 @@ for thisPranksLoop in pranksLoop:
                 win.timeOnFlip(slider, 'tStartRefresh')  # time at next scr refresh
                 slider.setAutoDraw(True)
             
-            # Check slider for response to end routine
-            if slider.getRating() is not None and slider.status == STARTED:
-                continueRoutine = False
-            
             # *primertext* updates
             if primertext.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
@@ -997,12 +926,46 @@ for thisPranksLoop in pranksLoop:
                 win.timeOnFlip(primertext, 'tStartRefresh')  # time at next scr refresh
                 primertext.setAutoDraw(True)
             if primertext.status == STARTED:
-                if frameN >= 1:
+                if frameN >= 20:
                     # keep track of stop time/frame for later
                     primertext.tStop = t  # not accounting for scr refresh
                     primertext.frameNStop = frameN  # exact frame index
                     win.timeOnFlip(primertext, 'tStopRefresh')  # time at next scr refresh
                     primertext.setAutoDraw(False)
+            
+            # *answerContinuePrompt* updates
+            if answerContinuePrompt.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+                # keep track of start time/frame for later
+                answerContinuePrompt.frameNStart = frameN  # exact frame index
+                answerContinuePrompt.tStart = t  # local t and not account for scr refresh
+                answerContinuePrompt.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(answerContinuePrompt, 'tStartRefresh')  # time at next scr refresh
+                answerContinuePrompt.setAutoDraw(True)
+            slider.getRating()
+            if slider.getRating() is not None:
+                sliderAnswered = true
+            
+            # *answerKey* updates
+            waitOnFlip = False
+            if answerKey.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+                # keep track of start time/frame for later
+                answerKey.frameNStart = frameN  # exact frame index
+                answerKey.tStart = t  # local t and not account for scr refresh
+                answerKey.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(answerKey, 'tStartRefresh')  # time at next scr refresh
+                answerKey.status = STARTED
+                # keyboard checking is just starting
+                waitOnFlip = True
+                win.callOnFlip(answerKey.clock.reset)  # t=0 on next screen flip
+                win.callOnFlip(answerKey.clearEvents, eventType='keyboard')  # clear events on next screen flip
+            if answerKey.status == STARTED and not waitOnFlip:
+                theseKeys = answerKey.getKeys(keyList=['space'], waitRelease=False)
+                _answerKey_allKeys.extend(theseKeys)
+                if len(_answerKey_allKeys):
+                    answerKey.keys = _answerKey_allKeys[-1].name  # just the last key pressed
+                    answerKey.rt = _answerKey_allKeys[-1].rt
+                    # a response ends the routine
+                    continueRoutine = False
             
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1029,6 +992,7 @@ for thisPranksLoop in pranksLoop:
         promptLoop.addData('slider.rt', slider.getRT())
         promptLoop.addData('slider.started', slider.tStartRefresh)
         promptLoop.addData('slider.stopped', slider.tStopRefresh)
+        sliderAnswered = false
         # the Routine "answer" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
         
@@ -1085,7 +1049,7 @@ for thisPranksLoop in pranksLoop:
         routineTimer.reset()
         thisExp.nextEntry()
         
-    # completed len(prompts) repeats of 'promptLoop'
+    # completed prompts.length repeats of 'promptLoop'
     
     
     # ------Prepare to start Routine "incrementPrank"-------
@@ -1142,14 +1106,17 @@ for thisPranksLoop in pranksLoop:
     routineTimer.reset()
     thisExp.nextEntry()
     
-# completed len(pranks) repeats of 'pranksLoop'
+# completed pranks.length repeats of 'pranksLoop'
 
 
 # ------Prepare to start Routine "respectroutine"-------
 continueRoutine = True
 # update component parameters for each repeat
+respectKey.keys = []
+respectKey.rt = []
+_respectKey_allKeys = []
 # keep track of which components have finished
-respectroutineComponents = [respectform, contBtnRespect]
+respectroutineComponents = [respectform, respectContinuePrompt, respectKey]
 for thisComponent in respectroutineComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -1181,30 +1148,36 @@ while continueRoutine:
         win.timeOnFlip(respectform, 'tStartRefresh')  # time at next scr refresh
         respectform.setAutoDraw(True)
     
-    # *contBtnRespect* updates
-    if contBtnRespect.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+    # *respectContinuePrompt* updates
+    if respectContinuePrompt.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
         # keep track of start time/frame for later
-        contBtnRespect.frameNStart = frameN  # exact frame index
-        contBtnRespect.tStart = t  # local t and not account for scr refresh
-        contBtnRespect.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(contBtnRespect, 'tStartRefresh')  # time at next scr refresh
-        contBtnRespect.setAutoDraw(True)
-    if contBtnRespect.status == STARTED:
-        # check whether contBtnRespect has been pressed
-        if contBtnRespect.isClicked:
-            if not contBtnRespect.wasClicked:
-                contBtnRespect.timesOn.append(contBtnRespect.buttonClock.getTime()) # store time of first click
-                contBtnRespect.timesOff.append(contBtnRespect.buttonClock.getTime()) # store time clicked until
-            else:
-                contBtnRespect.timesOff[-1] = contBtnRespect.buttonClock.getTime() # update time clicked until
-            if not contBtnRespect.wasClicked:
-                continueRoutine = False  # end routine when contBtnRespect is clicked
-                None
-            contBtnRespect.wasClicked = True  # if contBtnRespect is still clicked next frame, it is not a new click
-        else:
-            contBtnRespect.wasClicked = False  # if contBtnRespect is clicked next frame, it is a new click
-    else:
-        contBtnRespect.wasClicked = False  # if contBtnRespect is clicked next frame, it is a new click
+        respectContinuePrompt.frameNStart = frameN  # exact frame index
+        respectContinuePrompt.tStart = t  # local t and not account for scr refresh
+        respectContinuePrompt.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(respectContinuePrompt, 'tStartRefresh')  # time at next scr refresh
+        respectContinuePrompt.setAutoDraw(True)
+    
+    # *respectKey* updates
+    waitOnFlip = False
+    if respectKey.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+        # keep track of start time/frame for later
+        respectKey.frameNStart = frameN  # exact frame index
+        respectKey.tStart = t  # local t and not account for scr refresh
+        respectKey.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(respectKey, 'tStartRefresh')  # time at next scr refresh
+        respectKey.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(respectKey.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(respectKey.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if respectKey.status == STARTED and not waitOnFlip:
+        theseKeys = respectKey.getKeys(keyList=['space'], waitRelease=False)
+        _respectKey_allKeys.extend(theseKeys)
+        if len(_respectKey_allKeys):
+            respectKey.keys = _respectKey_allKeys[-1].name  # just the last key pressed
+            respectKey.rt = _respectKey_allKeys[-1].rt
+            # a response ends the routine
+            continueRoutine = False
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1235,8 +1208,11 @@ routineTimer.reset()
 # ------Prepare to start Routine "angerroutine"-------
 continueRoutine = True
 # update component parameters for each repeat
+angerKey.keys = []
+angerKey.rt = []
+_angerKey_allKeys = []
 # keep track of which components have finished
-angerroutineComponents = [contBtnAnger, angerform]
+angerroutineComponents = [angerform, angerContinuePrompt, angerKey]
 for thisComponent in angerroutineComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -1259,31 +1235,6 @@ while continueRoutine:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *contBtnAnger* updates
-    if contBtnAnger.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
-        # keep track of start time/frame for later
-        contBtnAnger.frameNStart = frameN  # exact frame index
-        contBtnAnger.tStart = t  # local t and not account for scr refresh
-        contBtnAnger.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(contBtnAnger, 'tStartRefresh')  # time at next scr refresh
-        contBtnAnger.setAutoDraw(True)
-    if contBtnAnger.status == STARTED:
-        # check whether contBtnAnger has been pressed
-        if contBtnAnger.isClicked:
-            if not contBtnAnger.wasClicked:
-                contBtnAnger.timesOn.append(contBtnAnger.buttonClock.getTime()) # store time of first click
-                contBtnAnger.timesOff.append(contBtnAnger.buttonClock.getTime()) # store time clicked until
-            else:
-                contBtnAnger.timesOff[-1] = contBtnAnger.buttonClock.getTime() # update time clicked until
-            if not contBtnAnger.wasClicked:
-                continueRoutine = False  # end routine when contBtnAnger is clicked
-                None
-            contBtnAnger.wasClicked = True  # if contBtnAnger is still clicked next frame, it is not a new click
-        else:
-            contBtnAnger.wasClicked = False  # if contBtnAnger is clicked next frame, it is a new click
-    else:
-        contBtnAnger.wasClicked = False  # if contBtnAnger is clicked next frame, it is a new click
-    
     # *angerform* updates
     if angerform.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
@@ -1292,6 +1243,37 @@ while continueRoutine:
         angerform.tStartRefresh = tThisFlipGlobal  # on global time
         win.timeOnFlip(angerform, 'tStartRefresh')  # time at next scr refresh
         angerform.setAutoDraw(True)
+    
+    # *angerContinuePrompt* updates
+    if angerContinuePrompt.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+        # keep track of start time/frame for later
+        angerContinuePrompt.frameNStart = frameN  # exact frame index
+        angerContinuePrompt.tStart = t  # local t and not account for scr refresh
+        angerContinuePrompt.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(angerContinuePrompt, 'tStartRefresh')  # time at next scr refresh
+        angerContinuePrompt.setAutoDraw(True)
+    
+    # *angerKey* updates
+    waitOnFlip = False
+    if angerKey.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+        # keep track of start time/frame for later
+        angerKey.frameNStart = frameN  # exact frame index
+        angerKey.tStart = t  # local t and not account for scr refresh
+        angerKey.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(angerKey, 'tStartRefresh')  # time at next scr refresh
+        angerKey.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(angerKey.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(angerKey.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if angerKey.status == STARTED and not waitOnFlip:
+        theseKeys = angerKey.getKeys(keyList=['space'], waitRelease=False)
+        _angerKey_allKeys.extend(theseKeys)
+        if len(_angerKey_allKeys):
+            angerKey.keys = _angerKey_allKeys[-1].name  # just the last key pressed
+            angerKey.rt = _angerKey_allKeys[-1].rt
+            # a response ends the routine
+            continueRoutine = False
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1322,8 +1304,11 @@ routineTimer.reset()
 # ------Prepare to start Routine "demoroutine"-------
 continueRoutine = True
 # update component parameters for each repeat
+demoKey.keys = []
+demoKey.rt = []
+_demoKey_allKeys = []
 # keep track of which components have finished
-demoroutineComponents = [demoForm, contBtnDemo]
+demoroutineComponents = [demoForm, demoContinuePrompt, demoKey]
 for thisComponent in demoroutineComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -1355,30 +1340,36 @@ while continueRoutine:
         win.timeOnFlip(demoForm, 'tStartRefresh')  # time at next scr refresh
         demoForm.setAutoDraw(True)
     
-    # *contBtnDemo* updates
-    if contBtnDemo.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+    # *demoContinuePrompt* updates
+    if demoContinuePrompt.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
         # keep track of start time/frame for later
-        contBtnDemo.frameNStart = frameN  # exact frame index
-        contBtnDemo.tStart = t  # local t and not account for scr refresh
-        contBtnDemo.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(contBtnDemo, 'tStartRefresh')  # time at next scr refresh
-        contBtnDemo.setAutoDraw(True)
-    if contBtnDemo.status == STARTED:
-        # check whether contBtnDemo has been pressed
-        if contBtnDemo.isClicked:
-            if not contBtnDemo.wasClicked:
-                contBtnDemo.timesOn.append(contBtnDemo.buttonClock.getTime()) # store time of first click
-                contBtnDemo.timesOff.append(contBtnDemo.buttonClock.getTime()) # store time clicked until
-            else:
-                contBtnDemo.timesOff[-1] = contBtnDemo.buttonClock.getTime() # update time clicked until
-            if not contBtnDemo.wasClicked:
-                continueRoutine = False  # end routine when contBtnDemo is clicked
-                None
-            contBtnDemo.wasClicked = True  # if contBtnDemo is still clicked next frame, it is not a new click
-        else:
-            contBtnDemo.wasClicked = False  # if contBtnDemo is clicked next frame, it is a new click
-    else:
-        contBtnDemo.wasClicked = False  # if contBtnDemo is clicked next frame, it is a new click
+        demoContinuePrompt.frameNStart = frameN  # exact frame index
+        demoContinuePrompt.tStart = t  # local t and not account for scr refresh
+        demoContinuePrompt.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(demoContinuePrompt, 'tStartRefresh')  # time at next scr refresh
+        demoContinuePrompt.setAutoDraw(True)
+    
+    # *demoKey* updates
+    waitOnFlip = False
+    if demoKey.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+        # keep track of start time/frame for later
+        demoKey.frameNStart = frameN  # exact frame index
+        demoKey.tStart = t  # local t and not account for scr refresh
+        demoKey.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(demoKey, 'tStartRefresh')  # time at next scr refresh
+        demoKey.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(demoKey.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(demoKey.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if demoKey.status == STARTED and not waitOnFlip:
+        theseKeys = demoKey.getKeys(keyList=['space'], waitRelease=False)
+        _demoKey_allKeys.extend(theseKeys)
+        if len(_demoKey_allKeys):
+            demoKey.keys = _demoKey_allKeys[-1].name  # just the last key pressed
+            demoKey.rt = _demoKey_allKeys[-1].rt
+            # a response ends the routine
+            continueRoutine = False
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1408,10 +1399,10 @@ routineTimer.reset()
 
 # ------Prepare to start Routine "finish"-------
 continueRoutine = True
-routineTimer.add(1.500000)
+routineTimer.add(1.000000)
 # update component parameters for each repeat
 # keep track of which components have finished
-finishComponents = [text_2]
+finishComponents = [completetext]
 for thisComponent in finishComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -1434,22 +1425,22 @@ while continueRoutine and routineTimer.getTime() > 0:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *text_2* updates
-    if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+    # *completetext* updates
+    if completetext.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
-        text_2.frameNStart = frameN  # exact frame index
-        text_2.tStart = t  # local t and not account for scr refresh
-        text_2.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
-        text_2.setAutoDraw(True)
-    if text_2.status == STARTED:
+        completetext.frameNStart = frameN  # exact frame index
+        completetext.tStart = t  # local t and not account for scr refresh
+        completetext.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(completetext, 'tStartRefresh')  # time at next scr refresh
+        completetext.setAutoDraw(True)
+    if completetext.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text_2.tStartRefresh + 1.5-frameTolerance:
+        if tThisFlipGlobal > completetext.tStartRefresh + 1.00-frameTolerance:
             # keep track of stop time/frame for later
-            text_2.tStop = t  # not accounting for scr refresh
-            text_2.frameNStop = frameN  # exact frame index
-            win.timeOnFlip(text_2, 'tStopRefresh')  # time at next scr refresh
-            text_2.setAutoDraw(False)
+            completetext.tStop = t  # not accounting for scr refresh
+            completetext.frameNStop = frameN  # exact frame index
+            win.timeOnFlip(completetext, 'tStopRefresh')  # time at next scr refresh
+            completetext.setAutoDraw(False)
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1476,8 +1467,11 @@ for thisComponent in finishComponents:
 # ------Prepare to start Routine "feedback"-------
 continueRoutine = True
 # update component parameters for each repeat
+feedbackKey.keys = []
+feedbackKey.rt = []
+_feedbackKey_allKeys = []
 # keep track of which components have finished
-feedbackComponents = [feedbackBtn, feedbackform]
+feedbackComponents = [feedbackform, feedbackContinuePrompt, feedbackKey]
 for thisComponent in feedbackComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -1500,31 +1494,6 @@ while continueRoutine:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *feedbackBtn* updates
-    if feedbackBtn.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-        # keep track of start time/frame for later
-        feedbackBtn.frameNStart = frameN  # exact frame index
-        feedbackBtn.tStart = t  # local t and not account for scr refresh
-        feedbackBtn.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(feedbackBtn, 'tStartRefresh')  # time at next scr refresh
-        feedbackBtn.setAutoDraw(True)
-    if feedbackBtn.status == STARTED:
-        # check whether feedbackBtn has been pressed
-        if feedbackBtn.isClicked:
-            if not feedbackBtn.wasClicked:
-                feedbackBtn.timesOn.append(feedbackBtn.buttonClock.getTime()) # store time of first click
-                feedbackBtn.timesOff.append(feedbackBtn.buttonClock.getTime()) # store time clicked until
-            else:
-                feedbackBtn.timesOff[-1] = feedbackBtn.buttonClock.getTime() # update time clicked until
-            if not feedbackBtn.wasClicked:
-                continueRoutine = False  # end routine when feedbackBtn is clicked
-                None
-            feedbackBtn.wasClicked = True  # if feedbackBtn is still clicked next frame, it is not a new click
-        else:
-            feedbackBtn.wasClicked = False  # if feedbackBtn is clicked next frame, it is a new click
-    else:
-        feedbackBtn.wasClicked = False  # if feedbackBtn is clicked next frame, it is a new click
-    
     # *feedbackform* updates
     if feedbackform.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
@@ -1533,6 +1502,37 @@ while continueRoutine:
         feedbackform.tStartRefresh = tThisFlipGlobal  # on global time
         win.timeOnFlip(feedbackform, 'tStartRefresh')  # time at next scr refresh
         feedbackform.setAutoDraw(True)
+    
+    # *feedbackContinuePrompt* updates
+    if feedbackContinuePrompt.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+        # keep track of start time/frame for later
+        feedbackContinuePrompt.frameNStart = frameN  # exact frame index
+        feedbackContinuePrompt.tStart = t  # local t and not account for scr refresh
+        feedbackContinuePrompt.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(feedbackContinuePrompt, 'tStartRefresh')  # time at next scr refresh
+        feedbackContinuePrompt.setAutoDraw(True)
+    
+    # *feedbackKey* updates
+    waitOnFlip = False
+    if feedbackKey.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+        # keep track of start time/frame for later
+        feedbackKey.frameNStart = frameN  # exact frame index
+        feedbackKey.tStart = t  # local t and not account for scr refresh
+        feedbackKey.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(feedbackKey, 'tStartRefresh')  # time at next scr refresh
+        feedbackKey.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(feedbackKey.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(feedbackKey.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if feedbackKey.status == STARTED and not waitOnFlip:
+        theseKeys = feedbackKey.getKeys(keyList=['space'], waitRelease=False)
+        _feedbackKey_allKeys.extend(theseKeys)
+        if len(_feedbackKey_allKeys):
+            feedbackKey.keys = _feedbackKey_allKeys[-1].name  # just the last key pressed
+            feedbackKey.rt = _feedbackKey_allKeys[-1].rt
+            # a response ends the routine
+            continueRoutine = False
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1555,13 +1555,6 @@ while continueRoutine:
 for thisComponent in feedbackComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData('feedbackBtn.numClicks', feedbackBtn.numClicks)
-if feedbackBtn.numClicks:
-   thisExp.addData('feedbackBtn.timesOn', feedbackBtn.timesOn)
-   thisExp.addData('feedbackBtn.timesOff', feedbackBtn.timesOff)
-else:
-   thisExp.addData('feedbackBtn.timesOn', "")
-   thisExp.addData('feedbackBtn.timesOff', "")
 feedbackform.addDataToExp(thisExp, 'rows')
 feedbackform.autodraw = False
 # the Routine "feedback" was not non-slip safe, so reset the non-slip timer
@@ -1570,8 +1563,11 @@ routineTimer.reset()
 # ------Prepare to start Routine "debrief"-------
 continueRoutine = True
 # update component parameters for each repeat
+debriefKey.keys = []
+debriefKey.rt = []
+_debriefKey_allKeys = []
 # keep track of which components have finished
-debriefComponents = [debriefBtn, debriefform]
+debriefComponents = [debriefform, debriefContinuePrompt, debriefKey]
 for thisComponent in debriefComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -1594,31 +1590,6 @@ while continueRoutine:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *debriefBtn* updates
-    if debriefBtn.status == NOT_STARTED and debriefform.complete:
-        # keep track of start time/frame for later
-        debriefBtn.frameNStart = frameN  # exact frame index
-        debriefBtn.tStart = t  # local t and not account for scr refresh
-        debriefBtn.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(debriefBtn, 'tStartRefresh')  # time at next scr refresh
-        debriefBtn.setAutoDraw(True)
-    if debriefBtn.status == STARTED:
-        # check whether debriefBtn has been pressed
-        if debriefBtn.isClicked:
-            if not debriefBtn.wasClicked:
-                debriefBtn.timesOn.append(debriefBtn.buttonClock.getTime()) # store time of first click
-                debriefBtn.timesOff.append(debriefBtn.buttonClock.getTime()) # store time clicked until
-            else:
-                debriefBtn.timesOff[-1] = debriefBtn.buttonClock.getTime() # update time clicked until
-            if not debriefBtn.wasClicked:
-                continueRoutine = False  # end routine when debriefBtn is clicked
-                None
-            debriefBtn.wasClicked = True  # if debriefBtn is still clicked next frame, it is not a new click
-        else:
-            debriefBtn.wasClicked = False  # if debriefBtn is clicked next frame, it is a new click
-    else:
-        debriefBtn.wasClicked = False  # if debriefBtn is clicked next frame, it is a new click
-    
     # *debriefform* updates
     if debriefform.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
@@ -1627,6 +1598,37 @@ while continueRoutine:
         debriefform.tStartRefresh = tThisFlipGlobal  # on global time
         win.timeOnFlip(debriefform, 'tStartRefresh')  # time at next scr refresh
         debriefform.setAutoDraw(True)
+    
+    # *debriefContinuePrompt* updates
+    if debriefContinuePrompt.status == NOT_STARTED and debriefform.formComplete():
+        # keep track of start time/frame for later
+        debriefContinuePrompt.frameNStart = frameN  # exact frame index
+        debriefContinuePrompt.tStart = t  # local t and not account for scr refresh
+        debriefContinuePrompt.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(debriefContinuePrompt, 'tStartRefresh')  # time at next scr refresh
+        debriefContinuePrompt.setAutoDraw(True)
+    
+    # *debriefKey* updates
+    waitOnFlip = False
+    if debriefKey.status == NOT_STARTED and debriefform.formComplete():
+        # keep track of start time/frame for later
+        debriefKey.frameNStart = frameN  # exact frame index
+        debriefKey.tStart = t  # local t and not account for scr refresh
+        debriefKey.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(debriefKey, 'tStartRefresh')  # time at next scr refresh
+        debriefKey.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(debriefKey.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(debriefKey.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if debriefKey.status == STARTED and not waitOnFlip:
+        theseKeys = debriefKey.getKeys(keyList=['space'], waitRelease=False)
+        _debriefKey_allKeys.extend(theseKeys)
+        if len(_debriefKey_allKeys):
+            debriefKey.keys = _debriefKey_allKeys[-1].name  # just the last key pressed
+            debriefKey.rt = _debriefKey_allKeys[-1].rt
+            # a response ends the routine
+            continueRoutine = False
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1649,13 +1651,6 @@ while continueRoutine:
 for thisComponent in debriefComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-thisExp.addData('debriefBtn.numClicks', debriefBtn.numClicks)
-if debriefBtn.numClicks:
-   thisExp.addData('debriefBtn.timesOn', debriefBtn.timesOn)
-   thisExp.addData('debriefBtn.timesOff', debriefBtn.timesOff)
-else:
-   thisExp.addData('debriefBtn.timesOn', "")
-   thisExp.addData('debriefBtn.timesOff', "")
 debriefform.addDataToExp(thisExp, 'rows')
 debriefform.autodraw = False
 # the Routine "debrief" was not non-slip safe, so reset the non-slip timer
