@@ -108,7 +108,8 @@ async function updateInfo() {
 
   // add info from the URL:
   util.addInfoFromUrl(expInfo);
-  
+  psychoJS.setRedirectUrls('https://google.com', '');
+
   return Scheduler.Event.NEXT;
 }
 
@@ -410,7 +411,7 @@ async function experimentInit() {
   demoContinuePrompt = new visual.TextStim({
     win: psychoJS.window,
     name: 'demoContinuePrompt',
-    text: 'Press Space to Submit and Continue',
+    text: 'Press Enter/Return to Submit and Continue',
     font: 'Open Sans',
     units: undefined, 
     pos: [0, (- 0.45)], height: 0.03,  wrapWidth: undefined, ori: 0.0,
@@ -526,11 +527,6 @@ function setupRoutineEachFrame() {
     t = setupClock.getTime();
     frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
     // update/draw components on each frame
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-    }
-    
     // check if the Routine should terminate
     if (!continueRoutine) {  // a component has requested a forced-end of Routine
       return Scheduler.Event.NEXT;
@@ -665,11 +661,6 @@ function informationletterRoutineEachFrame() {
       }
     }
     
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-    }
-    
     // check if the Routine should terminate
     if (!continueRoutine) {  // a component has requested a forced-end of Routine
       return Scheduler.Event.NEXT;
@@ -791,11 +782,6 @@ function consentRoutineEachFrame() {
       }
     }
     
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-    }
-    
     // check if the Routine should terminate
     if (!continueRoutine) {  // a component has requested a forced-end of Routine
       return Scheduler.Event.NEXT;
@@ -915,11 +901,6 @@ function instructionsRoutineEachFrame() {
         // a response ends the routine
         continueRoutine = false;
       }
-    }
-    
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
     }
     
     // check if the Routine should terminate
@@ -1099,11 +1080,6 @@ function numberRoutineEachFrame() {
     if (prankNumberText.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       prankNumberText.setAutoDraw(false);
     }
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-    }
-    
     // check if the Routine should terminate
     if (!continueRoutine) {  // a component has requested a forced-end of Routine
       return Scheduler.Event.NEXT;
@@ -1291,11 +1267,6 @@ function answerRoutineEachFrame() {
       }
     }
     
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-    }
-    
     // check if the Routine should terminate
     if (!continueRoutine) {  // a component has requested a forced-end of Routine
       return Scheduler.Event.NEXT;
@@ -1327,7 +1298,6 @@ function answerRoutineEnd() {
       }
     });
     psychoJS.experiment.addData('slider.response', slider.getRating());
-    psychoJS.experiment.addData('slider.rt', slider.getRT());
     sliderAnswered = false;
     
     answerKey.stop();
@@ -1371,11 +1341,6 @@ function incrementPromptRoutineEachFrame() {
     t = incrementPromptClock.getTime();
     frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
     // update/draw components on each frame
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-    }
-    
     // check if the Routine should terminate
     if (!continueRoutine) {  // a component has requested a forced-end of Routine
       return Scheduler.Event.NEXT;
@@ -1447,11 +1412,6 @@ function incrementPrankRoutineEachFrame() {
     t = incrementPrankClock.getTime();
     frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
     // update/draw components on each frame
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-    }
-    
     // check if the Routine should terminate
     if (!continueRoutine) {  // a component has requested a forced-end of Routine
       return Scheduler.Event.NEXT;
@@ -1569,11 +1529,6 @@ function respectroutineRoutineEachFrame() {
         // a response ends the routine
         continueRoutine = false;
       }
-    }
-    
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
     }
     
     // check if the Routine should terminate
@@ -1697,11 +1652,6 @@ function angerroutineRoutineEachFrame() {
       }
     }
     
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-    }
-    
     // check if the Routine should terminate
     if (!continueRoutine) {  // a component has requested a forced-end of Routine
       return Scheduler.Event.NEXT;
@@ -1813,7 +1763,7 @@ function demoroutineRoutineEachFrame() {
     }
 
     if (demoKey.status === PsychoJS.Status.STARTED) {
-      let theseKeys = demoKey.getKeys({keyList: ['space'], waitRelease: false});
+      let theseKeys = demoKey.getKeys({keyList: ['return', 'enter'], waitRelease: false});
       _demoKey_allKeys = _demoKey_allKeys.concat(theseKeys);
       if (_demoKey_allKeys.length > 0) {
         demoKey.keys = _demoKey_allKeys[_demoKey_allKeys.length - 1].name;  // just the last key pressed
@@ -1821,11 +1771,6 @@ function demoroutineRoutineEachFrame() {
         // a response ends the routine
         continueRoutine = false;
       }
-    }
-    
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
     }
     
     // check if the Routine should terminate
@@ -1914,11 +1859,6 @@ function finishRoutineEachFrame() {
     if (completetext.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       completetext.setAutoDraw(false);
     }
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-    }
-    
     // check if the Routine should terminate
     if (!continueRoutine) {  // a component has requested a forced-end of Routine
       return Scheduler.Event.NEXT;
@@ -2033,11 +1973,6 @@ function feedbackRoutineEachFrame() {
         // a response ends the routine
         continueRoutine = false;
       }
-    }
-    
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
     }
     
     // check if the Routine should terminate
@@ -2159,11 +2094,6 @@ function debriefRoutineEachFrame() {
         // a response ends the routine
         continueRoutine = false;
       }
-    }
-    
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
     }
     
     // check if the Routine should terminate
